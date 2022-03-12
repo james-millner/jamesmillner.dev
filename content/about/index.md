@@ -13,7 +13,7 @@ My name is James Millner, and I'm currently living in [Huddersfield, United King
 
 I'm a motivated Software Developer and enjoy tinkering within the Software Engineering space as often as I can. I love cycling, after taking up the sport in **2018** it's thoroughly taken over my spare time. It's also given me a huge appreciation for West Yorkshire, although it's very hilly! :mountain:
 
-![Ah Huddersfield](images/huddersfield-colourful.jpg "Some Lovely Huddersfield Hills ") ![Ah Huddersfield](images/bike.jpg "Bike")
+![Ah Huddersfield](images/huddersfield-colourful.jpg "Some Lovely Huddersfield Hills ") ![Ah Huddersfield](images/bike.jpg "Trusty stead, and more hills!")
 
 ### Fun Facts
 
