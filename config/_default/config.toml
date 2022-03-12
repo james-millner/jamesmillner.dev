@@ -1,0 +1,11 @@
+baseURL = "https://jamesmillner.dev/"
+languageCode = "en"
+defaultContentLanguage = "en"
+enableRobotsTXT = false
+pluralizelisttitles = false
+
+[permalinks]
+posts = "/blog/:year/:month/:day/:slug/"
+
+[outputs]
+home = [ "HTML", "RSS", "JSON" ]

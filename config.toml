@@ -2,10 +2,3 @@ baseURL = 'http://jamesmillner.dev'
 languageCode = 'en'
 title = 'James Millner'
 avatar = "img/avatar.jpg"
-
-[menu]
-  [menu.infra]
-    title = "Example Page"
-    identifier = "infra/Example Documentation Page"
-    parent = "infra"
-    weight = 40

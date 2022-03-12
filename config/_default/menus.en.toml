@@ -1,9 +1,10 @@
-[[main]]
-  name = "Blog"
-  pageRef = "posts"
-  weight = 10
+### When to add blogs
+#[[main]]
+#  name = "Blog"
+#  pageRef = "posts"
+#  weight = 10
 
 [[main]]
   name = "About"
-  pageRef = "about"
+  pageRef = "about/index"
   weight = 20

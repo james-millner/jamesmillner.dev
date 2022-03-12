@@ -4,7 +4,14 @@ title = "James Millner"
 name = "James Millner"
 image = "img/avatar.jpg"
 headline = "A motivated Software Engineer based in Huddersfield, United Kingdom"
-bio = "Declan Donoghue!"
+bio = "Software Engineer @ SkyBet"
 links = [
-  { twitter = "https://twitter.com/_jamesmillner" }
+  { twitter = "https://twitter.com/_jamesmillner" },
+  { github = "https://github.com/james-millner" },
+  { email = "jamesmillnerdev@gmail.com" },
+  { linkedin = "https://www.linkedin.com/in/james-millner-26a7974a/" }
 ]
+
+[share-links-active]
+  twitter = true
+  linkedin = true

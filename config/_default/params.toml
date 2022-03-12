@@ -1,4 +1,7 @@
-colorScheme = "Avocado"
+colorScheme = "ocean"
 homepage.layout = "profile"
-homepage.showRecent = true
+homepage.showRecent = false
 homepage.mainSections = ["posts"]
+showAppearanceSwitcher = true
+enableSearch = true
+showScrollToTop = true
