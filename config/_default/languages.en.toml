@@ -1,0 +1,10 @@
+title = "James Millner"
+
+[author]
+name = "James Millner"
+image = "img/avatar.jpg"
+headline = "A motivated Software Engineer based in Huddersfield, United Kingdom"
+bio = "Declan Donoghue!"
+links = [
+  { twitter = "https://twitter.com/_jamesmillner" }
+]

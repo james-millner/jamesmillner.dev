@@ -1,0 +1,4 @@
+colorScheme = "Avocado"
+homepage.layout = "profile"
+homepage.showRecent = true
+homepage.mainSections = ["posts"]
