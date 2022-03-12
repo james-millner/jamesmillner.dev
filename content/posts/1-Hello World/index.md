@@ -12,8 +12,8 @@ showReadingTime: true
 
 Well this is new! Hello World! :earth_africa:
 
-I've created this small site in an effort to organise my online space, share a bit more about the projects and work that I'm interested in, and to share some ramblings in a space I own. 
-This site is set up with [Hugo](https://gohugo.io/) and using the [Congo](https://jpanther.github.io/congo/), and boy is it neat!
+I've created this small site to organise my online space, share a bit more about the projects and work that I'm interested in, and to share some ramblings in a space I own. 
+This site is set up with [Hugo](https://gohugo.io/) and using the [Congo](https://jpanther.github.io/congo/) theme, and boy is it neat! It's hosted and managed by netlify, making it easy to deploy updates and posts here! Woo!
 
 Recently I've reflected a lot on the past couple of years and end up coming to the same conclusion:
 
