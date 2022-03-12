@@ -8,7 +8,7 @@ bio = "Software Engineer @ SkyBet"
 links = [
   { twitter = "https://twitter.com/_jamesmillner" },
   { github = "https://github.com/james-millner" },
-  { email = "jamesmillnerdev@gmail.com" },
+  { email = "mailto:jamesmillnerdev@gmail.com" },
   { linkedin = "https://www.linkedin.com/in/james-millner-26a7974a/" }
 ]
 
