@@ -8,3 +8,8 @@
   name = "About"
   pageRef = "about/index"
   weight = 20
+
+[[main]]
+name = "Projects"
+pageRef = "projects/index"
+weight = 20

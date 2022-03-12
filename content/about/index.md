@@ -11,7 +11,7 @@ showReadingTime: false
 
 My name is James Millner, and I'm currently living in [Huddersfield, United Kingdom](https://goo.gl/maps/8uTjwXLdxJSrSfUc6). 
 
-I'm a motivated Software Developer and enjoy tinkering within the Software Engineering space as often as I can. I love cycling, after taking up the sport in **2018** it's thoroughly taken over my spare time. It's also given me a huge appreciation for West Yorkshire, although it's very hilly! :mountain:
+I'm a motivated Software Developer and enjoy tinkering within the Software Engineering space as often as I can. I love cycling, after taking up the sport in **2018** it's thoroughly taken over my spare time. It's also given me a huge appreciation for West Yorkshire, although it is very hilly! :mountain:
 
 ![Ah Huddersfield](images/huddersfield-colourful.jpg "Some Lovely Huddersfield Hills ") ![Ah Huddersfield](images/bike.jpg "Trusty stead, and more hills!")
 
@@ -32,6 +32,8 @@ Currently, I am very interested in **Kotlin**, **Spring Boot**, **Kafka** and **
 I'm also very keen in the world of **DevOps** and **Containerization**. Fascinated by SoC computing and successfully operated a [K3s.io](k3s.io) raspberry pi cluster, with monitoring support via [Prometheus Operator - By Carlos Eduardo](https://github.com/carlosedp/cluster-monitoring) - Highly recommend checking out this repo if you intend to do the same.
 
 ### Experience
+
+I'm currently working as a Senior Software Engineer at [Sky Betting & Gaming](https://www.linkedin.com/company/sky-betting-and-gaming/), based in [Leeds](https://goo.gl/maps/TMkUkiwJ5Lweay9i6).
 
 Rather than duplicate my experience on here, my full professional experience can be found over on [LinkedIn](https://www.linkedin.com/in/james-millner-26a7974a/)
 
