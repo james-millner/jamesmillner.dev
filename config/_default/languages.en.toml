@@ -7,9 +7,10 @@ headline = "A motivated Software Engineer based in Huddersfield, United Kingdom"
 bio = "Software Engineer @ SkyBet"
 links = [
   { twitter = "https://twitter.com/_jamesmillner" },
+  { youtube = "https://www.youtube.com/channel/UCNLK4hRA46Oe21VKoXweM-A/featured" },
   { github = "https://github.com/james-millner" },
-  { email = "mailto:jamesmillnerdev@gmail.com" },
-  { linkedin = "https://www.linkedin.com/in/james-millner-26a7974a/" }
+  { linkedin = "https://www.linkedin.com/in/james-millner-26a7974a/" },
+  { email = "mailto:jamesmillnerdev@gmail.com" }
 ]
 
 [share-links-active]
