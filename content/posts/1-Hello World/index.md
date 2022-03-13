@@ -18,7 +18,7 @@ Well this is new! Hello World! :earth_africa:
 I've created this small site to organise my online space, share a bit more about the projects and work that 
 I'm interested in, and to share some ramblings. 
 This site is set up with [Hugo](https://gohugo.io/) and using the [Congo](https://jpanther.github.io/congo/) theme, 
-and boy is it neat! It's hosted and managed by netlify, making it easy to deploy updates and posts here! Woo!
+and boy is it neat! It's hosted and managed by [Netlify](https://netlify.com), making it easy to deploy updates and posts here! Woo!
 
 This isn't _too_ unusual for me, I have had previous static sites before to try to host my own personal website. 
 _Albeit I'm not really familiar with blogging, other than the occasional short form tweet._
