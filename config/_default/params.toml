@@ -1,6 +1,6 @@
 colorScheme = "ocean"
 homepage.layout = "profile"
-homepage.showRecent = false
+homepage.showRecent = true
 homepage.mainSections = ["posts"]
 showAppearanceSwitcher = true
 enableSearch = true

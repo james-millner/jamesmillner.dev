@@ -9,9 +9,15 @@ showReadingTime: false
 
 ### Hi :wave:
 
-My name is James Millner, and I'm currently living in [Huddersfield, United Kingdom](https://goo.gl/maps/8uTjwXLdxJSrSfUc6). 
+My name is James Millner, and I'm currently living in [Huddersfield, West Yorkshire, UK](https://goo.gl/maps/8uTjwXLdxJSrSfUc6) but have always lived in Yorkshire (_insert yorkshire chant_). 
 
-I'm a motivated Software Developer and enjoy tinkering within the Software Engineering space as often as I can. I love cycling, after taking up the sport in **2018** it's thoroughly taken over my spare time. It's also given me a huge appreciation for West Yorkshire, although it is very hilly! :mountain:
+I'm a motivated Software Developer and enjoy tinkering within the Software Engineering space as often as I can. I love cycling, after taking up the sport in **2018** it's thoroughly taken over my spare time. It's also given me a huge appreciation for West Yorkshire, although it is very hilly! :mountain: Since 2018 I've clocked over 10,000KM in distance, and counting!
+
+Finally, I also suffer from a serious contagious love for Dad Jokes and Puns. If I can slip them into a morning stand-up - I will.
+
+>I have an async joke.
+> 
+>I promise it will be good.
 
 ![Ah Huddersfield](images/cycling-collage.PNG "Some lovely Huddersfield hills, and the trusty stead!") 
 
@@ -39,9 +45,9 @@ Rather than duplicate my experience on here, my full professional experience can
 
 ### Skills
 
-A lot of my experience is predominantly around the backend JVM space. Below though is a list of tools and technologies that I have experience with:
+A lot of my experience is predominantly around the backend JVM space, in Java & Kotlin. Below though is a list of tools and technologies that I have experience with:
 
-#### Programming Languages
+#### Programming / Scripting Languages
 
 Kotlin &bull; Java &bull; JavaScript &bull; Typescript &bull; React &bull; GoLang &bull; Bash Scripting 
 
@@ -71,4 +77,4 @@ MySQL &bull; Postgres &bull; MongoDB &bull; Cassandra
 
 #### Other Tools
 
-Kubernetes &bull; Docker &bull; Git &bull; Makefiles &bull; Intellij IDEA &bull; VSCode &bull; Atom &bull;
+Kubernetes &bull; Docker &bull; Git &bull; Makefiles &bull; Intellij IDEA &bull; VSCode &bull; Atom
