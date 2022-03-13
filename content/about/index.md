@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: "aboutme"
-title: About me
+title: About
 showAuthor: false
 showDate: false
 showReadingTime: false
