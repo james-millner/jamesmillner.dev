@@ -13,13 +13,13 @@ My name is James Millner, and I'm currently living in [Huddersfield, West Yorksh
 
 I'm a motivated Software Developer and enjoy tinkering within the Software Engineering space as often as I can. I love cycling, after taking up the sport in **2018** it's thoroughly taken over my spare time. It's also given me a huge appreciation for West Yorkshire, although it is very hilly! :mountain: Since 2018 I've clocked over 10,000KM in distance, and counting!
 
+![Ah Huddersfield](images/cycling-collage.PNG "Some lovely Huddersfield hills, and the trusty stead!")
+
 Finally, I also suffer from a serious contagious love for Dad Jokes and Puns. If I can slip them into a morning stand-up - I will.
 
 >I have an async joke.
 > 
 >I promise it will be good.
-
-![Ah Huddersfield](images/cycling-collage.PNG "Some lovely Huddersfield hills, and the trusty stead!") 
 
 ### Fun Facts
 
