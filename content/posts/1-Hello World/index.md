@@ -7,9 +7,6 @@ showAuthor: true
 showDate: true
 showReadingTime: true
 ---
-{{< badge >}}
-New article!
-{{< /badge >}}
 
 # Hello :wave:
 

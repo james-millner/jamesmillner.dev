@@ -1,7 +1,7 @@
 baseURL = "https://jamesmillner.dev/"
 languageCode = "en"
 defaultContentLanguage = "en"
-enableRobotsTXT = false
+enableRobotsTXT = true
 pluralizelisttitles = false
 
 [permalinks]
