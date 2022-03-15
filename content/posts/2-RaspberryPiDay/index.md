@@ -21,7 +21,7 @@ my experience with Raspberry Pi's - and a bit of a tutorial on how to set up wha
 I've always been interested in Raspberry Pi's due to the low barrier to entry, and their compact design. I mean a computer the size of a credit card?! 
 I remember nerdly thinking that this was *so cool*, and to be honest I still do!
 
-I got my first Raspberry Pi back in 2018 - the 3 B+ model. At the time I only had the Pi itself with an SD card, and some cabling to hook it up to my route and to power it on. 
+I got my first Raspberry Pi back in 2018 - the 3 B+ model. At the time I only had the Pi itself with an SD card, and some cabling to hook it up to my router and to power it on. 
 It's a relatively cheap piece of kit to acquire in the UK. Nowadays, you can get [a starter kit](https://thepihut.com/products/raspberry-pi-starter-kit)
 for around £50, which will give you the essentials to get a machine up and running. 
 
@@ -31,10 +31,11 @@ They can be used for all sorts of wacky and wonderful ideas but at their core th
 * IoT style development
 * Home automation
 * Clusters and edge computing 
+* and more!
 
 I was introduced to the University of Huddersfield demo Raspberry Pi cluster which really piqued my interest in them originally.
 
-![Raspberry Pi Galore](images/university-pi-cluster.jpg "A 16 node Raspberry Pi cluster!")
+![Raspberry Pi Galore](images/university-pi-cluster.jpg "A 16 node Raspberry Pi cluster at the University of Huddersfield!")
 
 Unfortunately I wasn't able to find any further information online from when this project existed at the University, but since there
 has been some cool research published from the University of Huddersfield using them. I'll link them here for anyone interested in the studies:
@@ -81,7 +82,7 @@ Once I'd flashed all the images it was almost time to assemble them and power th
 
 #### Headless Pi?
 
-If you want to run the Pi's heedlessly (No UI), you'll need to add an empty file named `ssh` to the root of your volume. 
+If you want to run the Pi's heedlessly. Which essentially is running the Pi's with out a GUI. I wanted to SSH onto them and configure them all via a terminal. To do this, you'll need to add an empty file named `ssh` to the root of your volume. 
 
 It's as easy as changing directory into that new volume using the terminal of your choice and running:
 * `touch ssh` on MacOS / Linux. 
