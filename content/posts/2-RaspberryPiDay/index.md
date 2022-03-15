@@ -13,7 +13,7 @@ New article!
 
 # Happy Raspberry Pi Day!
 
-I'm a the day late writing this, but seeing that yesterday was Raspberry Pi day has prompted me to put some words out about 
+I'm a day late writing this, but seeing that yesterday was Raspberry Pi day has prompted me to put some words out about 
 my experience with Raspberry Pi's - and a bit of a tutorial on how to set up what I have running currently.
 
 ## My Raspberry Pi Background
