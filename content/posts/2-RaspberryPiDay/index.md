@@ -21,7 +21,7 @@ my experience with Raspberry Pi's - and a bit of a tutorial on how to set up wha
 I've always been interested in Raspberry Pi's due to the low barrier to entry, and their compact design. I mean a computer the size of a credit card?! 
 I remember nerdly thinking that this was *so cool*, and to be honest I still do!
 
-I got my first raspberry pi back in 2018 - the 3 B+ model, and that's where my journey began with them. 
+I got my first Raspberry Pi back in 2018 - the 3 B+ model, and that's where my journey began with them. 
 It's a relatively cheap piece of kit to acquire in the UK. Nowadays, you can get [a starter kit](https://thepihut.com/products/raspberry-pi-starter-kit)
 for around £50, which will give you the essentials to get a machine up and running. 
 
