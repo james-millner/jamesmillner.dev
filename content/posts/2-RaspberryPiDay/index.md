@@ -13,7 +13,7 @@ New article!
 
 # Happy Raspberry Pi Day!
 
-I'm a bit late in the day writing this, but seeing that yesterday was Raspberry Pi day has prompted me to put some words out about 
+I'm a the day late writing this, but seeing that yesterday was Raspberry Pi day has prompted me to put some words out about 
 my experience with Raspberry Pi's - and a bit of a tutorial on how to set up what I have running currently.
 
 ## My Raspberry Pi Background
@@ -21,7 +21,7 @@ my experience with Raspberry Pi's - and a bit of a tutorial on how to set up wha
 I've always been interested in Raspberry Pi's due to the low barrier to entry, and their compact design. I mean a computer the size of a credit card?! 
 I remember nerdly thinking that this was *so cool*, and to be honest I still do!
 
-I got my first Raspberry Pi back in 2018 - the 3 B+ model, and that's where my journey began with them. 
+I got my first Raspberry Pi back in 2018 - the 3 B+ model. At the time I only had the Pi itself with an SD card, and some cabling to hook it up to my route and to power it on. 
 It's a relatively cheap piece of kit to acquire in the UK. Nowadays, you can get [a starter kit](https://thepihut.com/products/raspberry-pi-starter-kit)
 for around £50, which will give you the essentials to get a machine up and running. 
 
@@ -32,7 +32,7 @@ They can be used for all sorts of wacky and wonderful ideas but at their core th
 * Home automation
 * Clusters and edge computing 
 
-I was introduced to the University of Huddersfield demo Raspberry Pi cluster that really piqued my interest in them
+I was introduced to the University of Huddersfield demo Raspberry Pi cluster which really piqued my interest in them originally.
 
 ![Raspberry Pi Galore](images/university-pi-cluster.jpg "A 16 node Raspberry Pi cluster!")
 
@@ -42,9 +42,8 @@ has been some cool research published from the University of Huddersfield using 
 * [An Asus-xtion-probased Indoor MAPPING Using a Raspberry Pi with Turtlebot Robot Turtlebot Robot - Dr Voileta Holmes, Dr Hamza Aagela & Maha Al-Nesf](https://pure.hud.ac.uk/en/publications/an-asus-xtion-probased-indoor-mapping-using-a-raspberry-pi-with-t)
 * [Implementing a Lightweight Cloud-Based Process Monitoring Solution for Smart Agriculture - Daniel Clarke, Dr Hussain Al-Aqrabi, Prof Graham Hill, Dr Pritesh Mistry, Philip Lane](https://pure.hud.ac.uk/en/publications/implementing-a-lightweight-cloud-based-process-monitoring-solutio)
 
-However, I must admit, when I got my [Raspberry Pi 3 B+](https://en.wikipedia.org/wiki/Raspberry_Pi) in 2018. I didn't do too much with it.
-I loaded up Raspbian (_a Debian based linux distro specifically designed for Raspberry Pis_) and tinkered with it. After that point
-it sat as a bit of a paper weight.
+However, I must admit, when I got my [Raspberry Pi 3 B+](https://en.wikipedia.org/wiki/Raspberry_Pi) I didn't do too much with it.
+I loaded up Raspbian (_a Debian based linux distro specifically designed for Raspberry Pis_) and tinkered with it. After that point it sat as a bit of a paper weight.
 
 Due to the ease of use, I used to flash it back to normal time and time again - to repeatedly set it up. But I saw lots of projects setting up
 retro gaming consoles, pi robots, hue lighting automation. I never got that far, but never forgot about the trusty Pi!
@@ -54,7 +53,9 @@ There's a shed load of support available online in the form of the [Raspberry Pi
 
 ## My Own Raspberry Pi Cluster
 
-At Sky Betting & Gaming, in the technology space we are a big Kubernetes house. Lots of our infrastructure runs on Kubernetes, and we've got lots of automation around it to enable all our squads to utilize it. Now Kubernetes isn't particularly lightweight, 
+At Sky Betting & Gaming, in the technology space we are a big Kubernetes house. Lots of our infrastructure runs on Kubernetes, and we've got lots of automation around it to enable all our squads to utilize it.
+
+Now Kubernetes isn't particularly lightweight, 
 or so I thought before I discovered [K3s](https://k3s.io)
 
 >Lightweight Kubernetes. Easy to install, half the memory, all in a binary of less than 100 MB.
@@ -69,12 +70,14 @@ This gave me a compute pool of:
 
 ### What do I do to set this up?
 
-To get up and running the first step is to flash a fresh operating system to the SD cards. In my case an installation of Raspbian on all the SD 
+To get up and running the first step is to flash a fresh operating system to the SD cards. In my case, an installation of Raspbian on all the SD 
 cards I planned to insert into the Raspberry Pis. Raspbian is what this post follows, but if you want tips on other OS's please reach out! 
 
 Historically you could download an ISO of your choosing, then use a disk imaging tool to flash that OS to the card.
 That's still possible today of course, but there's now a [dedicated tool](https://www.raspberrypi.com/news/raspberry-pi-imager-imaging-utility/) provided by the
 Raspberry Pi Foundation to help you on your way! This tool will format and flash your OS images for you, it'll also allow you to use a custom ISO too. It's really neat :thumbsup:, and I'd recommend this route.
+
+Once I'd flashed all the images it was almost time to assemble them and power them on. I wanted to operate them all headlessly, which the section below covers.
 
 #### Headless Pi?
 
@@ -236,12 +239,13 @@ pi-one     Ready    control-plane,master   21m   v1.22.7+k3s1
 
 This covers the basics of getting a K3s cluster up and running. 
 
-Now you can go ahead and run workloads on there, and K3s will balance work for you and away you go! One key takeaway point:
+Now you can go ahead and run workloads on there, and K3s will balance work for you and away you go! Some takeaway points and notes:
 
 * The Raspberry Pi's are all ARM based architecture. So anything you run on there will need to be ARM compatible. 
   * So look for ways to convert your AMD64 apps to ARM, and test them out on here! 
   * GoLang has some great tooling to build ARM apps, package them build, build a docker container and away you go!
-  * Plenty of ARM based docker base images out there to make your applications compliant
+  * Plenty of ARM based docker base images out there to make your applications compliant.
+* K3s is fully [CNCF](https://www.cncf.io) certified and it conforms with the standard kubernetes API. It makes it the perfect demo cluster to get started with Kubernetes. If you can deploy something on K3s, you can lift and shift your YAML files and apply them to a larger scale cluster!
 
 ### Monitoring & Observability of your Cluster.
 
@@ -250,7 +254,7 @@ I'll be honest I didn't set that up as part of this demo.
 
 We heavily use Prometheus and Grafana at Sky Betting & Gaming, so I was quite keen to replicate that. Now to save this post from becoming too long, 
 I want to link out to [Carlos Eduardo's Cluster Monitoring Repo](https://github.com/carlosedp/cluster-monitoring) This has a wealth of instructions for setting up 
-Prometheus, Grafana, Alertmanager and more!
+Prometheus, Grafana, Alertmanager and more! It also has support for K3s, but plenty of other Kubernetes setups.
 
 Do check it out, as it can give you some great monitoring tooling for you cluster through prom-operator. It also gives you a solid interface so that you can 
 scrape metrics from your own deployments. Here's some examples of the dashboards you get for free:
@@ -263,6 +267,6 @@ scrape metrics from your own deployments. Here's some examples of the dashboards
 
 Overall I hope this blog entry has been useful to read! It's a first really as far as my own blog posts go, and I enjoyed writing it. 
 
-If you have any questions, or want to know more head over to twitter and reach me there. All the links are below. 
+If you have any questions, or want to know more head over to twitter and reach me there. All the links are below!
 
-Thanks for taking the time to read this! Hopefully more good stuff to come!
+Thanks for taking the time to read this. Oh, and Happy Pi Day / Week 🍰
