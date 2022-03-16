@@ -1,0 +1,895 @@
+<!DOCTYPE html>
+<html
+  lang="en"
+  dir="ltr"
+  class="scroll-smooth"
+  data-default-appearance="light"
+  data-auto-appearance="true"
+><head>
+  <meta charset="utf-8" />
+  
+    <meta http-equiv="content-language" content="en" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  
+  <title>Raspberry Pi Day! &middot; James Millner</title>
+    <meta name="title" content="Raspberry Pi Day! &middot; James Millner" />
+  
+  
+  
+  
+  
+  <link rel="canonical" href="https://jamesmillner.dev/blog/2022/03/14/raspberry-pi-day/" />
+  
+  
+  
+  
+  
+  
+  
+  
+  
+    
+  
+  
+  <link
+    type="text/css"
+    rel="stylesheet"
+    href="/css/main.bundle.min.86cdc6c53e100c635d1dbd8bde57b16a632802b27e4d7af88c5f6f11e4d0692951a13d6cfdff85617fab88b24d43bc07fa7885b4577e2be515ad6e625788e4e0.css"
+    integrity="sha512-hs3GxT4QDGNdHb2L3lexamMoArJ&#43;TXr4jF9vEeTQaSlRoT1s/f&#43;FYX&#43;riLJNQ7wH&#43;niFtFd&#43;K&#43;UVrW5iV4jk4A=="
+  />
+  
+  
+  <script type="text/javascript" src="/js/appearance.min.1dc37605fc23844fe9adb9081ca82717d710e68c83b51e4f7b66549306a870fb615f1a99aab3ccce0599b6cdbc29bba751d8225fb67893310310a31013e05827.js" integrity="sha512-HcN2BfwjhE/prbkIHKgnF9cQ5oyDtR5Pe2ZUkwaocPthXxqZqrPMzgWZts28KbunUdgiX7Z4kzEDEKMQE&#43;BYJw=="></script>
+  
+    
+    
+    
+  
+  
+  
+    
+    <script defer type="text/javascript" id="script-bundle" src="/js/main.bundle.min.82b89a5d74acc75014660b84f922a73e49266b035892490b64ad19f96959b55dfa06eee8b676651a7eba722ac6c5c05f78285026f71403b929d74c250f3e323e.js" integrity="sha512-griaXXSsx1AUZguE&#43;SKnPkkmawNYkkkLZK0Z&#43;WlZtV36Bu7otnZlGn66cirGxcBfeChQJvcUA7kp10wlDz4yPg==" data-copy="Copy" data-copied="Copied"></script>
+  
+  
+  
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+  
+  
+  
+  
+  
+  
+  
+  <meta property="og:title" content="Raspberry Pi Day!" />
+<meta property="og:description" content="New article!  Happy Raspberry Pi Day! # I&rsquo;m a day late writing this, but seeing that yesterday was Raspberry Pi day has prompted me to put some words out about my experience with Raspberry Pi&rsquo;s - and a bit of a tutorial on how to set up what I have running currently." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://jamesmillner.dev/blog/2022/03/14/raspberry-pi-day/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2022-03-14T00:00:00+00:00" />
+<meta property="article:modified_time" content="2022-03-14T00:00:00+00:00" /><meta property="og:site_name" content="James Millner" />
+
+
+  <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Raspberry Pi Day!"/>
+<meta name="twitter:description" content="New article!  Happy Raspberry Pi Day! # I&rsquo;m a day late writing this, but seeing that yesterday was Raspberry Pi day has prompted me to put some words out about my experience with Raspberry Pi&rsquo;s - and a bit of a tutorial on how to set up what I have running currently."/>
+
+  
+  <script type="application/ld+json">
+  [{
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "articleSection": "Posts",
+    "name": "Raspberry Pi Day!",
+    "headline": "Raspberry Pi Day!",
+    
+    "abstract": "New article!\r  Happy Raspberry Pi Day! # I\u0026rsquo;m a day late writing this, but seeing that yesterday was Raspberry Pi day has prompted me to put some words out about my experience with Raspberry Pi\u0026rsquo;s - and a bit of a tutorial on how to set up what I have running currently.",
+    "inLanguage": "en",
+    "url" : "https:\/\/jamesmillner.dev\/blog\/2022\/03\/14\/raspberry-pi-day\/",
+    "author" : {
+      "@type": "Person",
+      "name": "James Millner"
+    },
+    "copyrightYear": "2022",
+    "dateCreated": "2022-03-14T00:00:00\u002b00:00",
+    "datePublished": "2022-03-14T00:00:00\u002b00:00",
+    
+    "dateModified": "2022-03-14T00:00:00\u002b00:00",
+    
+    
+    
+    "mainEntityOfPage": "true",
+    "wordCount": "2118"
+  }]
+  </script>
+
+
+  
+  
+    <meta name="generator" content="Hugo 0.94.1" />
+  
+  
+  <meta name="author" content="James Millner" />
+  
+    
+      <link href="https://twitter.com/_jamesmillner" rel="me" />
+    
+      <link href="https://www.youtube.com/channel/UCNLK4hRA46Oe21VKoXweM-A/featured" rel="me" />
+    
+      <link href="https://github.com/james-millner" rel="me" />
+    
+      <link href="https://www.linkedin.com/in/james-millner-26a7974a/" rel="me" />
+    
+      <link href="mailto:jamesmillnerdev@gmail.com" rel="me" />
+    
+  
+  
+  
+
+
+
+
+
+
+  
+  
+  
+    
+      <script defer src="https://cdn.usefathom.com/script.js" data-site="RCFFTRLS"></script>
+    
+  
+  
+
+
+  
+  
+</head>
+<body
+    class="flex flex-col h-screen px-6 m-auto text-lg leading-7 bg-neutral text-neutral-900 sm:px-14 md:px-24 lg:px-32 dark:bg-neutral-800 dark:text-neutral max-w-7xl"
+  >
+    <div id="the-top" class="absolute flex self-center">
+      <a
+        class="px-3 py-1 text-sm -translate-y-8 rounded-b-lg bg-primary-200 dark:bg-neutral-600 focus:translate-y-0"
+        href="#main-content"
+        ><span class="font-bold ltr:pr-2 rtl:pl-2 text-primary-600 dark:text-primary-400"
+          >&darr;</span
+        >Skip to main content</a
+      >
+    </div><header
+  class="flex justify-between py-6 font-semibold sm:items-center sm:py-10 text-neutral-900 dark:text-neutral"
+>
+  
+  <div>
+    
+      <a
+        class="decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2"
+        rel="me"
+        href="/"
+        >James Millner</a
+      >
+    
+
+  </div>
+  
+  
+    <nav>
+      <ul class="flex flex-col list-none sm:flex-row">
+        
+          <li
+            class="mb-1 ltr:text-right rtl:text-left sm:mb-0 ltr:sm:mr-7 ltr:sm:last:mr-0 rtl:sm:ml-7 rtl:sm:last:ml-0"
+          >
+            <a
+              class="decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2"
+              href="/about/"
+              title="About"
+              >About</a
+            >
+          </li>
+        
+          <li
+            class="mb-1 ltr:text-right rtl:text-left sm:mb-0 ltr:sm:mr-7 ltr:sm:last:mr-0 rtl:sm:ml-7 rtl:sm:last:ml-0"
+          >
+            <a
+              class="decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2"
+              href="/posts/"
+              title="Posts"
+              >Blog</a
+            >
+          </li>
+        
+          <li
+            class="mb-1 ltr:text-right rtl:text-left sm:mb-0 ltr:sm:mr-7 ltr:sm:last:mr-0 rtl:sm:ml-7 rtl:sm:last:ml-0"
+          >
+            <a
+              class="decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2"
+              href="/projects/"
+              title="Projects"
+              >Projects</a
+            >
+          </li>
+        
+        
+          <li
+            class="ltr:text-right rtl:text-left ltr:sm:mr-7 ltr:sm:last:mr-0 rtl:sm:ml-7 rtl:sm:last:ml-0"
+          >
+            <button
+              id="search-button"
+              class="text-base hover:text-primary-600 dark:hover:text-primary-400"
+              title="Search (/)"
+            >
+              
+
+  <span class="relative inline-block align-text-bottom icon">
+    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" class="svg-inline--fa fa-search fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"></path></svg>
+  </span>
+
+
+            </button>
+          </li>
+        
+      </ul>
+    </nav>
+  
+</header>
+<main id="main-content" class="relative grow">
+  <article>
+    <header class="max-w-prose">
+      
+      <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
+        Raspberry Pi Day!
+      </h1>
+      <div class="mt-8 mb-12 text-base text-neutral-500 dark:text-neutral-400">
+        
+
+
+
+
+
+  
+  
+
+
+
+  
+
+  
+  
+    
+  
+
+  
+
+  
+
+  
+    
+  
+
+  
+
+
+  <div class="flex flex-row flex-wrap items-center">
+    
+    
+      <time datetime="2022-03-14 00:00:00 &#43;0000 UTC">March 14, 2022</time><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">10 mins</span>
+    
+
+    
+    
+  </div>
+
+  
+  
+
+
+      </div>
+    </header>
+    <section class="flex flex-col max-w-full mt-0 prose lg:flex-row dark:prose-invert">
+      
+        <div class="order-first px-0 lg:max-w-xs ltr:lg:pl-8 rtl:lg:pr-8 lg:order-last">
+          <div class="ltr:pl-5 rtl:pr-5 toc lg:sticky lg:top-10">
+            <details open class="mt-0 overflow-hidden rounded-lg rtl:pr-5 ltr:pl-5 ltr:-ml-5 rtl:-mr-5 lg:mt-3">
+  <summary
+    class="block py-1 text-lg font-semibold cursor-pointer rtl:pr-5 ltr:pl-5 ltr:-ml-5 rtl:-mr-5 text-neutral-800 dark:text-neutral-100 lg:hidden bg-neutral-100 dark:bg-neutral-700"
+  >
+    Table of Contents
+  </summary>
+  <div
+    class="py-2 border-dotted ltr:border-l rtl:border-r rtl:pr-5 ltr:pl-5 ltr:-ml-5 rtl:-mr-5 border-neutral-300 dark:border-neutral-600"
+  >
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#my-raspberry-pi-background">My Raspberry Pi Background</a></li>
+    <li><a href="#my-own-raspberry-pi-cluster">My Own Raspberry Pi Cluster</a>
+      <ul>
+        <li><a href="#what-do-i-do-to-set-this-up">What do I do to set this up?</a></li>
+        <li><a href="#configuring-a-k3s-cluster">Configuring a K3s cluster</a></li>
+        <li><a href="#kube-config">Kube Config</a></li>
+        <li><a href="#monitoring--observability-of-your-cluster">Monitoring &amp; Observability of your Cluster.</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+  </div>
+</details>
+
+          </div>
+        </div>
+      
+      <div class="min-w-0 min-h-0 max-w-prose">
+        <span class="flex">
+  <span
+    class="ltr:ml-1 rtl:mr-1 px-1 py-[1px] text-xs font-normal border rounded-md text-primary-700 dark:text-primary-400 border-primary-400 dark:border-primary-600"
+  >
+    
+New article!
+
+  </span>
+</span>
+
+
+<h1 id="happy-raspberry-pi-day" class="relative group">Happy Raspberry Pi Day! <span class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#happy-raspberry-pi-day" aria-label="Anchor">#</a></span></h1>
+<p>I&rsquo;m a day late writing this, but seeing that yesterday was Raspberry Pi day has prompted me to put some words out about 
+my experience with Raspberry Pi&rsquo;s - and a bit of a tutorial on how to set up what I have running currently.</p>
+<h2 id="my-raspberry-pi-background" class="relative group">My Raspberry Pi Background <span class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#my-raspberry-pi-background" aria-label="Anchor">#</a></span></h2>
+<p>I&rsquo;ve always been interested in Raspberry Pi&rsquo;s due to the low barrier to entry, and their compact design. I mean a computer the size of a credit card?! 
+I remember nerdly thinking that this was <em>so cool</em>, and to be honest I still do!</p>
+<p>I got my first Raspberry Pi back in 2018 - the 3 B+ model. At the time I only had the Pi itself with an SD card, and some cabling to hook it up to my router and to power it on. 
+It&rsquo;s a relatively cheap piece of kit to acquire in the UK. Nowadays, you can get <a href="https://thepihut.com/products/raspberry-pi-starter-kit">a starter kit</a>
+for around £50, which will give you the essentials to get a machine up and running.</p>
+<p>They can be used for all sorts of wacky and wonderful ideas but at their core they are a tool to:</p>
+<ul>
+<li>Learn programming languages</li>
+<li>Understanding operating systems and system level operations</li>
+<li>IoT style development</li>
+<li>Home automation</li>
+<li>Clusters and edge computing</li>
+<li>and more!</li>
+</ul>
+<p>I was introduced to the University of Huddersfield demo Raspberry Pi cluster which really piqued my interest in them originally.</p>
+<p>
+
+
+
+  
+    <figure>
+      <img
+        class="my-0 rounded-md"
+        srcset="
+          /blog/2022/03/14/raspberry-pi-day/images/university-pi-cluster_hu16a734a62733b3b3086c9b25f2c58b33_3522870_330x0_resize_q75_box.jpg 330w,
+          /blog/2022/03/14/raspberry-pi-day/images/university-pi-cluster_hu16a734a62733b3b3086c9b25f2c58b33_3522870_660x0_resize_q75_box.jpg 660w,
+          /blog/2022/03/14/raspberry-pi-day/images/university-pi-cluster_hu16a734a62733b3b3086c9b25f2c58b33_3522870_1024x0_resize_q75_box.jpg 1024w,
+          /blog/2022/03/14/raspberry-pi-day/images/university-pi-cluster_hu16a734a62733b3b3086c9b25f2c58b33_3522870_1320x0_resize_q75_box.jpg 2x"
+        src="/blog/2022/03/14/raspberry-pi-day/images/university-pi-cluster_hu16a734a62733b3b3086c9b25f2c58b33_3522870_660x0_resize_q75_box.jpg"
+        alt="Raspberry Pi Galore"
+      />
+      <figcaption>A 16 node Raspberry Pi cluster at the University of Huddersfield!</figcaption>
+    </figure>
+  
+
+</p>
+<p>Unfortunately I wasn&rsquo;t able to find any further information online from when this project existed at the University, but since there
+has been some cool research published from the University of Huddersfield using them. I&rsquo;ll link them here for anyone interested in the studies:</p>
+<ul>
+<li><a href="https://pure.hud.ac.uk/en/publications/an-asus-xtion-probased-indoor-mapping-using-a-raspberry-pi-with-t">An Asus-xtion-probased Indoor MAPPING Using a Raspberry Pi with Turtlebot Robot Turtlebot Robot - Dr Voileta Holmes, Dr Hamza Aagela &amp; Maha Al-Nesf</a></li>
+<li><a href="https://pure.hud.ac.uk/en/publications/implementing-a-lightweight-cloud-based-process-monitoring-solutio">Implementing a Lightweight Cloud-Based Process Monitoring Solution for Smart Agriculture - Daniel Clarke, Dr Hussain Al-Aqrabi, Prof Graham Hill, Dr Pritesh Mistry, Philip Lane</a></li>
+</ul>
+<p>However, I must admit, when I got my <a href="https://en.wikipedia.org/wiki/Raspberry_Pi">Raspberry Pi 3 B+</a> I didn&rsquo;t do too much with it.
+I loaded up Raspbian (<em>a Debian based linux distro specifically designed for Raspberry Pis</em>) and tinkered with it. After that point it sat as a bit of a paper weight.</p>
+<p>Due to the ease of use, I used to flash it back to normal time and time again - to repeatedly set it up. But I saw lots of projects setting up
+retro gaming consoles, pi robots, hue lighting automation. I never got that far, but never forgot about the trusty Pi!</p>
+<p>These devices are a great learning tool at any stage of your development! It opens up loads of possibilities to learn all about computing in an accessible way. 
+There&rsquo;s a shed load of support available online in the form of the <a href="https://www.raspberrypi.org/">Raspberry Pi Foundation website</a>, the <a href="https://forums.raspberrypi.com/">Raspberry Pi Forums</a>, and generally all over the internet.</p>
+<h2 id="my-own-raspberry-pi-cluster" class="relative group">My Own Raspberry Pi Cluster <span class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#my-own-raspberry-pi-cluster" aria-label="Anchor">#</a></span></h2>
+<p>At Sky Betting &amp; Gaming, in the technology space we are a big Kubernetes house. Lots of our infrastructure runs on Kubernetes, and we&rsquo;ve got lots of automation around it to enable all our squads to utilize it.</p>
+<p>Now Kubernetes isn&rsquo;t particularly lightweight, 
+or so I thought before I discovered <a href="https://k3s.io">K3s</a></p>
+<blockquote>
+<p>Lightweight Kubernetes. Easy to install, half the memory, all in a binary of less than 100 MB.</p>
+</blockquote>
+<p><em>Sourced from: <a href="https://rancher.com/docs/k3s/latest/en/">https://rancher.com/docs/k3s/latest/en/</a>.</em></p>
+<p>Now I was asking a bit much of my 3 B+ to run this on its own. So I invested in two Raspberry Pi 4 (4GB) models, one to run as the controller node, and a subsequent worker.
+This gave me a compute pool of:</p>
+<ul>
+<li>1x Raspberry Pi 3 B+ (1GB)</li>
+<li>2x Raspberry Pi 4 (4GB)</li>
+</ul>
+<h3 id="what-do-i-do-to-set-this-up" class="relative group">What do I do to set this up? <span class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#what-do-i-do-to-set-this-up" aria-label="Anchor">#</a></span></h3>
+<p>To get up and running the first step is to flash a fresh operating system to the SD cards. In my case, an installation of Raspbian on all the SD 
+cards I planned to insert into the Raspberry Pis. Raspbian is what this post follows, but if you want tips on other OS&rsquo;s please reach out!</p>
+<p>Historically you could download an ISO of your choosing, then use a disk imaging tool to flash that OS to the card.
+That&rsquo;s still possible today of course, but there&rsquo;s now a <a href="https://www.raspberrypi.com/news/raspberry-pi-imager-imaging-utility/">dedicated tool</a> provided by the
+Raspberry Pi Foundation to help you on your way! This tool will format and flash your OS images for you, it&rsquo;ll also allow you to use a custom ISO too. It&rsquo;s really neat 👍, and I&rsquo;d recommend this route.</p>
+<p>Once I&rsquo;d flashed all the images it was almost time to assemble them and power them on. I wanted to operate them all headlessly, which the section below covers.</p>
+<h4 id="headless-pi" class="relative group">Headless Pi? <span class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#headless-pi" aria-label="Anchor">#</a></span></h4>
+<p>If you want to run the Pi&rsquo;s heedlessly. Which essentially is running the Pi&rsquo;s with out a GUI. I wanted to SSH onto them and configure them all via a terminal. To do this, you&rsquo;ll need to add an empty file named <code>ssh</code> to the root of your volume.</p>
+<p>It&rsquo;s as easy as changing directory into that new volume using the terminal of your choice and running:</p>
+<ul>
+<li><code>touch ssh</code> on MacOS / Linux.</li>
+<li><code>New-Item ssh -type file</code> on Windows Powershell</li>
+</ul>
+<p>This will tell the Pi on boot to enable SSH. Safely eject your SD card and begin assembling!</p>
+<p>
+
+
+
+  
+    <figure>
+      <img
+        class="my-0 rounded-md"
+        srcset="
+          /blog/2022/03/14/raspberry-pi-day/images/cluster_huaf78af4e2632ee3452a2f3780db53c94_2242896_330x0_resize_q75_box.JPG 330w,
+          /blog/2022/03/14/raspberry-pi-day/images/cluster_huaf78af4e2632ee3452a2f3780db53c94_2242896_660x0_resize_q75_box.JPG 660w,
+          /blog/2022/03/14/raspberry-pi-day/images/cluster_huaf78af4e2632ee3452a2f3780db53c94_2242896_1024x0_resize_q75_box.JPG 1024w,
+          /blog/2022/03/14/raspberry-pi-day/images/cluster_huaf78af4e2632ee3452a2f3780db53c94_2242896_1320x0_resize_q75_box.JPG 2x"
+        src="/blog/2022/03/14/raspberry-pi-day/images/cluster_huaf78af4e2632ee3452a2f3780db53c94_2242896_660x0_resize_q75_box.JPG"
+        alt="Raspberry Pis"
+      />
+      <figcaption>My 3 node Raspberry Pi cluster!</figcaption>
+    </figure>
+  
+
+</p>
+<p>Once you power the Pi on. You&rsquo;ll be able to SSH to it over your network by running:</p>
+<p><code> ssh pi@&lt;your-raspberry-pi-ip-here&gt; </code></p>
+<p>It&rsquo;ll ask you for a password, which, if you selected Raspbian the default will be <code>raspberry</code>. Then afterwords, if you&rsquo;ve been successful you&rsquo;ll
+get the following response:</p>
+<pre tabindex="0"><code>➜  James Millner $ pi-one
+Linux raspberry 5.10.92-v8+ #1514 SMP PREEMPT Mon Jan 17 17:39:38 GMT 2022 aarch64
+
+The programs included with the Debian GNU/Linux system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
+permitted by applicable law.
+Last login: Mon Mar 14 23:29:54 2022 from 192.168.1.29
+
+Wi-Fi is currently blocked by rfkill.
+Use raspi-config to set the country before use.
+
+pi@raspberry:~ $
+</code></pre><p>Then the world is your oyster! You&rsquo;ve successfully set up a Raspberry Pi! 🙌</p>
+<p>Before I continue here - one step I like to do after setting these up is instantly rename the hostname of the pi. To do this, run:</p>
+<p><code>sudo raspi-config</code> (On Raspbian only)</p>
+<p>This will give you the option to change the hostname. I opted to change them to be pi-one, pi-two and pi-three.</p>
+<h3 id="configuring-a-k3s-cluster" class="relative group">Configuring a K3s cluster <span class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#configuring-a-k3s-cluster" aria-label="Anchor">#</a></span></h3>
+<p>Now this is where it gets good. It&rsquo;s only a handful more steps, and you&rsquo;ll have a lightweight version of Kubernetes to play around with.
+All credit here goes to the <a href="https://rancher.com/docs/k3s/latest/en/installation/install-options/">documentation</a> at Rancher, its brilliant.</p>
+<p>Firstly select the node which you would like to be the controller. Bear in mind this will still operate as a node, but it&rsquo;ll be the main controlling node.</p>
+<p>On that node, run:</p>
+<pre tabindex="0"><code>curl -sfL https://get.k3s.io | sh -
+</code></pre><p>This will go off and install K3s on that host. To confirm K3s is set up correctly you can run:</p>
+<pre tabindex="0"><code>sudo systemctl status k3s.service
+</code></pre><p>Which if successful, should return:</p>
+<pre tabindex="0"><code>● k3s.service - Lightweight Kubernetes
+     Loaded: loaded (/etc/systemd/system/k3s.service; enabled; vendor preset: enabled)
+     Active: active (running) since Mon 2022-03-14 23:26:50 GMT; 23min ago
+       Docs: https://k3s.io
+</code></pre><p><em>This response is trimmed down from the full systemctl response. The main attribute we&rsquo;re interested in here is the <em>active flag</em></em></p>
+<h3 id="kube-config" class="relative group">Kube Config <span class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#kube-config" aria-label="Anchor">#</a></span></h3>
+<p>Now you have a node! Now k3s will have configured a config file to interact with the cluster, make a copy of this. You can find it by running:</p>
+<pre tabindex="0"><code>sudo cat /etc/rancher/k3s/k3s.yaml
+</code></pre><p>Now if you want to test your k3s cluster remotely then you&rsquo;ll need kubectl configured. If you don&rsquo;t want to install kubectl, it&rsquo;s not required, but it can make life easier.</p>
+<h4 id="without-kubectl---locally" class="relative group">Without Kubectl - Locally <span class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#without-kubectl---locally" aria-label="Anchor">#</a></span></h4>
+<p>K3s installs an instance of kubectl on your nodes. If you hop onto your controller node, and run the following:</p>
+<pre tabindex="0"><code>pi@pi-one:~ $ sudo k3s kubectl get nodes
+NAME       STATUS   ROLES                  AGE   VERSION
+pi-one     Ready    control-plane,master   31m   v1.22.7+k3s1
+</code></pre><p>You should see this lovely output to say that its setup correctly!</p>
+<h4 id="with-kubectl---remotely" class="relative group">With Kubectl - Remotely <span class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#with-kubectl---remotely" aria-label="Anchor">#</a></span></h4>
+<p>If you take the contents of <code>sudo cat /etc/rancher/k3s/k3s.yaml</code> and set them up on your own host under <code>~/.kube/config</code> you&rsquo;ll then be able to use kubectl remotely.</p>
+<p>One thing to note, the kube/config file by default will have the cluster server set to localhost. To access this remotely, you&rsquo;ll need to change this to your local IP of that node: <code>192.168.*.*:6443</code>. 
+Look in that config file and find the location clusters -&gt; cluster -&gt; server and make the change there.</p>
+<p>This guide presumes you already have kubectl installed, if you don&rsquo;t head <a href="https://kubernetes.io/docs/tasks/tools/">here</a> to find out how to install it.</p>
+<p>Upon running <code>kubectl get nodes</code> you should see something like this:</p>
+<pre tabindex="0"><code>➜  James Millner kubectl get nodes
+NAME       STATUS   ROLES                  AGE   VERSION
+pi-one     Ready    control-plane,master   21m   v1.22.7+k3s1
+</code></pre><p>That&rsquo;s your first node installed! Now onto the other nodes. This is where the process slightly differs and this because you&rsquo;ve just configured your controller node.
+We&rsquo;ll now need to configure some worker nodes.</p>
+<p>To do that, head back onto your controller and run the following command:</p>
+<pre tabindex="0"><code>sudo cat /var/lib/rancher/k3s/server/node-token
+</code></pre><p>This will return you a token, keep this safe. You&rsquo;ll need it next to configure the workers.</p>
+<p>Now the next command takes that token and uses it to allow that worker to join the cluster. Keep it safe. Prepare the following command that contains:</p>
+<ul>
+<li>Cluster Access Token</li>
+<li>Controller Local IP</li>
+</ul>
+<pre tabindex="0"><code>curl -sfL https://get.k3s.io | K3S_URL=https://&lt;controller-node-ip-here&gt;:6443 K3S_TOKEN=&lt;my-super-secret-k3s-token&gt; sh -
+</code></pre><p>Once you have the command, run that on each host that you want to join the cluster. Now once that&rsquo;s run, just as before - make 
+sure that systemctl reports the service as healthy by running <code>sudo systemctl status k3s.service</code> on each new host.</p>
+<p>Once you&rsquo;re happy run the <code>kubectl get nodes</code> command, and you should see a happy set of nodes ready for some work!</p>
+<p>Without Kubectl - Locally</p>
+<pre tabindex="0"><code>pi@pi-one:~ $ sudo k3s kubectl get nodes
+NAME       STATUS   ROLES                  AGE   VERSION
+pi-two     Ready    &lt;none&gt;                 27m   v1.22.7+k3s1
+pi-one     Ready    control-plane,master   31m   v1.22.7+k3s1
+pi-three   Ready    &lt;none&gt;                 27m   v1.22.7+k3s1
+</code></pre><p>With Kubectl - Remotely</p>
+<pre tabindex="0"><code>➜  James Millner kubectl get nodes
+NAME       STATUS   ROLES                  AGE   VERSION
+pi-two     Ready    &lt;none&gt;                 16m   v1.22.7+k3s1
+pi-three   Ready    &lt;none&gt;                 16m   v1.22.7+k3s1
+pi-one     Ready    control-plane,master   21m   v1.22.7+k3s1
+</code></pre><p>This covers the basics of getting a K3s cluster up and running.</p>
+<p>Now you can go ahead and run workloads on there, and K3s will balance work for you and away you go! Some takeaway points and notes:</p>
+<ul>
+<li>The Raspberry Pi&rsquo;s are all ARM based architecture. So anything you run on there will need to be ARM compatible.
+<ul>
+<li>So look for ways to convert your AMD64 apps to ARM, and test them out on here!</li>
+<li>GoLang has some great tooling to build ARM apps, package them build, build a docker container and away you go!</li>
+<li>Plenty of ARM based docker base images out there to make your applications compliant.</li>
+</ul>
+</li>
+<li>K3s is fully <a href="https://www.cncf.io">CNCF</a> certified and it conforms with the standard kubernetes API. It makes it the perfect demo cluster to get started with Kubernetes. If you can deploy something on K3s, you can lift and shift your YAML files and apply them to a larger scale cluster!</li>
+</ul>
+<h3 id="monitoring--observability-of-your-cluster" class="relative group">Monitoring &amp; Observability of your Cluster. <span class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#monitoring--observability-of-your-cluster" aria-label="Anchor">#</a></span></h3>
+<p>K3s has the support for <a href="https://rancher.com/docs/k3s/latest/en/installation/kube-dashboard/">the Kubernetes Dashboard</a> but 
+I&rsquo;ll be honest I didn&rsquo;t set that up as part of this demo.</p>
+<p>We heavily use Prometheus and Grafana at Sky Betting &amp; Gaming, so I was quite keen to replicate that. Now to save this post from becoming too long, 
+I want to link out to <a href="https://github.com/carlosedp/cluster-monitoring">Carlos Eduardo&rsquo;s Cluster Monitoring Repo</a> This has a wealth of instructions for setting up 
+Prometheus, Grafana, Alertmanager and more! It also has support for K3s, but plenty of other Kubernetes setups.</p>
+<p>Do check it out, as it can give you some great monitoring tooling for you cluster through prom-operator. It also gives you a solid interface so that you can 
+scrape metrics from your own deployments. Here&rsquo;s some examples of the dashboards you get for free:</p>
+<p>
+
+
+
+  
+    <figure>
+      <img
+        class="my-0 rounded-md"
+        srcset="
+          /blog/2022/03/14/raspberry-pi-day/images/cluster-use_huf8692f5e223280c6f9d8423b9148b67f_74593_330x0_resize_box_3.PNG 330w,
+          /blog/2022/03/14/raspberry-pi-day/images/cluster-use_huf8692f5e223280c6f9d8423b9148b67f_74593_660x0_resize_box_3.PNG 660w,
+          /blog/2022/03/14/raspberry-pi-day/images/cluster-use_huf8692f5e223280c6f9d8423b9148b67f_74593_1024x0_resize_box_3.PNG 1024w,
+          /blog/2022/03/14/raspberry-pi-day/images/cluster-use_huf8692f5e223280c6f9d8423b9148b67f_74593_1320x0_resize_box_3.PNG 2x"
+        src="/blog/2022/03/14/raspberry-pi-day/images/cluster-use_huf8692f5e223280c6f9d8423b9148b67f_74593_660x0_resize_box_3.PNG"
+        alt="Raspberry Pis"
+      />
+      <figcaption>Cluster Use Graph</figcaption>
+    </figure>
+  
+
+</p>
+<p>
+
+
+
+  
+    <figure>
+      <img
+        class="my-0 rounded-md"
+        srcset="
+          /blog/2022/03/14/raspberry-pi-day/images/grafana-nodes_hu89cfaf19f774941339bf331a158438f9_69556_330x0_resize_box_3.PNG 330w,
+          /blog/2022/03/14/raspberry-pi-day/images/grafana-nodes_hu89cfaf19f774941339bf331a158438f9_69556_660x0_resize_box_3.PNG 660w,
+          /blog/2022/03/14/raspberry-pi-day/images/grafana-nodes_hu89cfaf19f774941339bf331a158438f9_69556_1024x0_resize_box_3.PNG 1024w,
+          /blog/2022/03/14/raspberry-pi-day/images/grafana-nodes_hu89cfaf19f774941339bf331a158438f9_69556_1320x0_resize_box_3.PNG 2x"
+        src="/blog/2022/03/14/raspberry-pi-day/images/grafana-nodes_hu89cfaf19f774941339bf331a158438f9_69556_660x0_resize_box_3.PNG"
+        alt="Raspberry Pis"
+      />
+      <figcaption>Node exporter metrics</figcaption>
+    </figure>
+  
+
+</p>
+<p>
+
+
+
+  
+    <figure>
+      <img
+        class="my-0 rounded-md"
+        srcset="
+          /blog/2022/03/14/raspberry-pi-day/images/grafana-resources_hu0c283774f77e6463b7c2c3683629611e_74958_330x0_resize_box_3.PNG 330w,
+          /blog/2022/03/14/raspberry-pi-day/images/grafana-resources_hu0c283774f77e6463b7c2c3683629611e_74958_660x0_resize_box_3.PNG 660w,
+          /blog/2022/03/14/raspberry-pi-day/images/grafana-resources_hu0c283774f77e6463b7c2c3683629611e_74958_1024x0_resize_box_3.PNG 1024w,
+          /blog/2022/03/14/raspberry-pi-day/images/grafana-resources_hu0c283774f77e6463b7c2c3683629611e_74958_1320x0_resize_box_3.PNG 2x"
+        src="/blog/2022/03/14/raspberry-pi-day/images/grafana-resources_hu0c283774f77e6463b7c2c3683629611e_74958_660x0_resize_box_3.PNG"
+        alt="Raspberry Pis"
+      />
+      <figcaption>Further resource monitoring</figcaption>
+    </figure>
+  
+
+</p>
+<p>Overall I hope this blog entry has been useful to read! It&rsquo;s a first really as far as my own blog posts go, and I enjoyed writing it.</p>
+<p>If you have any questions, or want to know more head over to twitter and reach me there. All the links are below!</p>
+<p>Thanks for taking the time to read this. Oh, and Happy Pi Day / Week 🍰</p>
+
+      </div>
+    </section>
+    <footer class="pt-8 max-w-prose">
+      
+  <div class="flex">
+    
+      
+      
+        
+        <img
+          class="w-24 h-24 !mt-0 !mb-0 ltr:mr-4 rtl:ml-4 rounded-full"
+          width="96"
+          height="96"
+          alt="Author"
+          src="/img/avatar_huebf7ac19e29f534f7e5b5812919e3a27_1605642_192x192_fill_q75_box_smart1.jpg"
+        />
+      
+    
+    <div class="place-self-center">
+      
+        <div class="text-[0.6rem] leading-3 text-neutral-500 dark:text-neutral-400 uppercase">
+          Author
+        </div>
+        <div class="font-semibold leading-6 text-neutral-800 dark:text-neutral-300">
+          James Millner
+        </div>
+      
+      
+        <div class="text-sm text-neutral-700 dark:text-neutral-400">Software Engineer @ SkyBet</div>
+      
+      <div class="text-2xl sm:text-lg">
+  <div class="flex flex-wrap text-neutral-400 dark:text-neutral-500">
+    
+      
+        <a
+          class="px-1 hover:text-primary-700 dark:hover:text-primary-400"
+          href="https://twitter.com/_jamesmillner"
+          target="_blank"
+          aria-label="Twitter"
+          rel="me noopener noreferrer"
+          >
+
+  <span class="relative inline-block align-text-bottom icon">
+    <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="twitter" class="svg-inline--fa fa-twitter fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"></path></svg>
+  </span>
+
+</a
+        >
+      
+    
+      
+        <a
+          class="px-1 hover:text-primary-700 dark:hover:text-primary-400"
+          href="https://www.youtube.com/channel/UCNLK4hRA46Oe21VKoXweM-A/featured"
+          target="_blank"
+          aria-label="Youtube"
+          rel="me noopener noreferrer"
+          >
+
+  <span class="relative inline-block align-text-bottom icon">
+    <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="youtube" class="svg-inline--fa fa-youtube fa-w-18" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill="currentColor" d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"></path></svg>
+  </span>
+
+</a
+        >
+      
+    
+      
+        <a
+          class="px-1 hover:text-primary-700 dark:hover:text-primary-400"
+          href="https://github.com/james-millner"
+          target="_blank"
+          aria-label="Github"
+          rel="me noopener noreferrer"
+          >
+
+  <span class="relative inline-block align-text-bottom icon">
+    <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="github" class="svg-inline--fa fa-github fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path fill="currentColor" d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"></path></svg>
+  </span>
+
+</a
+        >
+      
+    
+      
+        <a
+          class="px-1 hover:text-primary-700 dark:hover:text-primary-400"
+          href="https://www.linkedin.com/in/james-millner-26a7974a/"
+          target="_blank"
+          aria-label="Linkedin"
+          rel="me noopener noreferrer"
+          >
+
+  <span class="relative inline-block align-text-bottom icon">
+    <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="linkedin" class="svg-inline--fa fa-linkedin fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"></path></svg>
+  </span>
+
+</a
+        >
+      
+    
+      
+        <a
+          class="px-1 hover:text-primary-700 dark:hover:text-primary-400"
+          href="mailto:jamesmillnerdev@gmail.com"
+          target="_blank"
+          aria-label="Email"
+          rel="me noopener noreferrer"
+          >
+
+  <span class="relative inline-block align-text-bottom icon">
+    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="at" class="svg-inline--fa fa-at fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M256 8C118.941 8 8 118.919 8 256c0 137.059 110.919 248 248 248 48.154 0 95.342-14.14 135.408-40.223 12.005-7.815 14.625-24.288 5.552-35.372l-10.177-12.433c-7.671-9.371-21.179-11.667-31.373-5.129C325.92 429.757 291.314 440 256 440c-101.458 0-184-82.542-184-184S154.542 72 256 72c100.139 0 184 57.619 184 160 0 38.786-21.093 79.742-58.17 83.693-17.349-.454-16.91-12.857-13.476-30.024l23.433-121.11C394.653 149.75 383.308 136 368.225 136h-44.981a13.518 13.518 0 0 0-13.432 11.993l-.01.092c-14.697-17.901-40.448-21.775-59.971-21.775-74.58 0-137.831 62.234-137.831 151.46 0 65.303 36.785 105.87 96 105.87 26.984 0 57.369-15.637 74.991-38.333 9.522 34.104 40.613 34.103 70.71 34.103C462.609 379.41 504 307.798 504 232 504 95.653 394.023 8 256 8zm-21.68 304.43c-22.249 0-36.07-15.623-36.07-40.771 0-44.993 30.779-72.729 58.63-72.729 22.292 0 35.601 15.241 35.601 40.77 0 45.061-33.875 72.73-58.161 72.73z"></path></svg>
+  </span>
+
+</a
+        >
+      
+    
+  </div>
+
+</div>
+    </div>
+  </div>
+
+
+      
+
+      
+  
+    
+    
+    
+    <div class="pt-8">
+      <hr class="border-dotted border-neutral-300 dark:border-neutral-600" />
+      <div class="flex justify-between pt-3">
+        <span>
+          
+            <a class="flex group" href="/blog/2022/03/12/a-whole-new-hello-world-earth_africa/">
+              <span
+                class="mr-3 ltr:inline rtl:hidden text-neutral-700 dark:text-neutral group-hover:text-primary-600 dark:group-hover:text-primary-400"
+                >&larr;</span
+              >
+              <span
+                class="ml-3 ltr:hidden rtl:inline text-neutral-700 dark:text-neutral group-hover:text-primary-600 dark:group-hover:text-primary-400"
+                >&rarr;</span
+              >
+              <span class="flex flex-col">
+                <span
+                  class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
+                  >A whole new Hello World! 🌍</span
+                >
+                <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
+                  
+                    <time datetime="2022-03-12 00:00:00 &#43;0000 UTC">March 12, 2022</time>
+                  
+                </span>
+              </span>
+            </a>
+          
+        </span>
+        <span>
+          
+        </span>
+      </div>
+    </div>
+  
+
+
+    </footer>
+    
+  </article>
+
+      
+        <div
+          class="absolute top-[110vh] ltr:right-0 rtl:left-0 w-12 pointer-events-none bottom-[-5.5rem]"
+        >
+          <a
+            href="#the-top"
+            class="w-12 h-12 sticky pointer-events-auto top-[calc(100vh-5rem)] bg-neutral/50 dark:bg-neutral-800/50 backdrop-blur rounded-full text-xl flex items-center justify-center text-neutral-700 dark:text-neutral hover:text-primary-600 dark:hover:text-primary-400"
+            aria-label="Scroll to top"
+            title="Scroll to top"
+          >
+            &uarr;
+          </a>
+        </div>
+      
+    </main>
+    <div
+  id="search-wrapper"
+  class="fixed inset-0 z-50 flex flex-col p-4 sm:p-6 md:p-[10vh] lg:p-[12vh] w-screen h-screen cursor-default bg-neutral-500/50 backdrop-blur-sm dark:bg-neutral-900/50 invisible"
+  data-url="https://jamesmillner.dev/"
+>
+  <div
+    id="search-modal"
+    class="flex flex-col w-full max-w-3xl min-h-0 mx-auto border rounded-md shadow-lg border-neutral-200 top-20 bg-neutral dark:bg-neutral-800 dark:border-neutral-700"
+  >
+    <header class="relative z-10 flex items-center justify-between flex-none px-2">
+      <form class="flex items-center flex-auto min-w-0">
+        <div class="flex items-center justify-center w-8 h-8 text-neutral-400">
+          
+
+  <span class="relative inline-block align-text-bottom icon">
+    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" class="svg-inline--fa fa-search fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"></path></svg>
+  </span>
+
+
+        </div>
+        <input
+          type="search"
+          id="search-query"
+          class="flex flex-auto h-12 mx-1 bg-transparent appearance-none focus:outline-dotted focus:outline-transparent focus:outline-2"
+          placeholder="Search"
+          tabindex="0"
+        />
+      </form>
+      <button
+        id="close-search-button"
+        class="flex items-center justify-center w-8 h-8 text-neutral-700 dark:text-neutral hover:text-primary-600 dark:hover:text-primary-400"
+        title="Close (Esc)"
+      >
+        
+
+  <span class="relative inline-block align-text-bottom icon">
+    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="times" class="svg-inline--fa fa-times fa-w-11" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 352 512"><path fill="currentColor" d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z"></path></svg>
+  </span>
+
+
+      </button>
+    </header>
+    <section class="flex-auto px-2 overflow-auto">
+      <ul id="search-results">
+        
+      </ul>
+    </section>
+  </div>
+</div>
+<footer class="py-10">
+  
+  
+  <div class="flex justify-between">
+    <div>
+      
+      <p class="text-sm text-neutral-500 dark:text-neutral-400">
+          &copy;
+          2022
+          James Millner
+      </p>
+      
+      
+        <p class="text-xs text-neutral-500 dark:text-neutral-400">
+          
+          
+          Powered by <a class="hover:underline hover:decoration-primary-400 hover:text-primary-500"
+            href="https://gohugo.io/" target="_blank" rel="noopener noreferrer">Hugo</a> &amp; <a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://git.io/hugo-congo" target="_blank" rel="noopener noreferrer">Congo</a>
+        </p>
+      
+    </div>
+    
+    
+      <div
+        class="text-sm cursor-pointer text-neutral-700 dark:text-neutral hover:text-primary-600 dark:hover:text-primary-400 ltr:mr-14 rtl:ml-14"
+      >
+        <button
+          id="appearance-switcher"
+          class="w-12 h-12 "
+          type="button"
+          title="Switch to dark appearance"
+        >
+          <span class="inline dark:hidden">
+
+  <span class="relative inline-block align-text-bottom icon">
+    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="moon" class="svg-inline--fa fa-moon fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M283.211 512c78.962 0 151.079-35.925 198.857-94.792 7.068-8.708-.639-21.43-11.562-19.35-124.203 23.654-238.262-71.576-238.262-196.954 0-72.222 38.662-138.635 101.498-174.394 9.686-5.512 7.25-20.197-3.756-22.23A258.156 258.156 0 0 0 283.211 0c-141.309 0-256 114.511-256 256 0 141.309 114.511 256 256 256z"></path></svg>
+  </span>
+
+</span>
+          <span class="hidden dark:inline">
+
+  <span class="relative inline-block align-text-bottom icon">
+    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="sun" class="svg-inline--fa fa-sun fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M256 160c-52.9 0-96 43.1-96 96s43.1 96 96 96 96-43.1 96-96-43.1-96-96-96zm246.4 80.5l-94.7-47.3 33.5-100.4c4.5-13.6-8.4-26.5-21.9-21.9l-100.4 33.5-47.4-94.8c-6.4-12.8-24.6-12.8-31 0l-47.3 94.7L92.7 70.8c-13.6-4.5-26.5 8.4-21.9 21.9l33.5 100.4-94.7 47.4c-12.8 6.4-12.8 24.6 0 31l94.7 47.3-33.5 100.5c-4.5 13.6 8.4 26.5 21.9 21.9l100.4-33.5 47.3 94.7c6.4 12.8 24.6 12.8 31 0l47.3-94.7 100.4 33.5c13.6 4.5 26.5-8.4 21.9-21.9l-33.5-100.4 94.7-47.3c13-6.5 13-24.7.2-31.1zm-155.9 106c-49.9 49.9-131.1 49.9-181 0-49.9-49.9-49.9-131.1 0-181 49.9-49.9 131.1-49.9 181 0 49.9 49.9 49.9 131.1 0 181z"></path></svg>
+  </span>
+
+</span>
+        </button>
+      </div>
+    
+  </div>
+  
+  
+</footer>
+</body>
+</html>

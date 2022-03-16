@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>James Millner</title>
+    <link>https://jamesmillner.dev/</link>
+    <description>Recent content on James Millner</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 14 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://jamesmillner.dev/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Raspberry Pi Day!</title>
+      <link>https://jamesmillner.dev/blog/2022/03/14/raspberry-pi-day/</link>
+      <pubDate>Mon, 14 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://jamesmillner.dev/blog/2022/03/14/raspberry-pi-day/</guid>
+      <description>New article!  Happy Raspberry Pi Day! # I&amp;rsquo;m a day late writing this, but seeing that yesterday was Raspberry Pi day has prompted me to put some words out about my experience with Raspberry Pi&amp;rsquo;s - and a bit of a tutorial on how to set up what I have running currently.</description>
+    </item>
+    
+    <item>
+      <title>A whole new Hello World! :earth_africa:</title>
+      <link>https://jamesmillner.dev/blog/2022/03/12/a-whole-new-hello-world-earth_africa/</link>
+      <pubDate>Sat, 12 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://jamesmillner.dev/blog/2022/03/12/a-whole-new-hello-world-earth_africa/</guid>
+      <description>Hello :wave: # Well this is new! Hello World!
+I&amp;rsquo;ve created this small site to organise my online space, share a bit more about the projects and work that I&amp;rsquo;m interested in, and to share some ramblings.</description>
+    </item>
+    
+    <item>
+      <title>LeedsCodeDojo - Coding Kata - Blackjack! :heart: :spades: :diamonds: :clubs:</title>
+      <link>https://jamesmillner.dev/projects/2-blackjackcli/</link>
+      <pubDate>Mon, 16 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://jamesmillner.dev/projects/2-blackjackcli/</guid>
+      <description>Wasn&amp;rsquo;t sure whether to bundle this in as a project, but thought why not!</description>
+    </item>
+    
+    <item>
+      <title>DartsNow :dart: - Online Darts Platform, Log In, Check Out.</title>
+      <link>https://jamesmillner.dev/projects/1-dartsnow/</link>
+      <pubDate>Wed, 05 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://jamesmillner.dev/projects/1-dartsnow/</guid>
+      <description>2020 -&amp;gt; 2022
+DartsNow was a passion project between myself good friend from the University of Huddersfield.</description>
+    </item>
+    
+    <item>
+      <title>LeedsCodeDojo - Coding Kata - Mastermind :red_circle: :white_circle: :blue_circle: :black_circle:</title>
+      <link>https://jamesmillner.dev/projects/3-mastermind/</link>
+      <pubDate>Tue, 07 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://jamesmillner.dev/projects/3-mastermind/</guid>
+      <description>Wasn&amp;rsquo;t sure whether to bundle this in as a project, but thought why not!</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://jamesmillner.dev/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://jamesmillner.dev/about/</guid>
+      <description>Hi :wave: # My name is James Millner, and I&amp;rsquo;m currently living in Huddersfield, West Yorkshire, UK but have always lived in Yorkshire (insert yorkshire chant).</description>
+    </item>
+    
+  </channel>
+</rss>

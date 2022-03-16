@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+    
+      <url>
+            <loc>https://jamesmillner.dev/</loc>
+            <lastmod>2022-03-14T00:00:00+00:00</lastmod>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://jamesmillner.dev/posts/</loc>
+            <lastmod>2022-03-14T00:00:00+00:00</lastmod>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://jamesmillner.dev/blog/2022/03/14/raspberry-pi-day/</loc>
+            <lastmod>2022-03-14T00:00:00+00:00</lastmod>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://jamesmillner.dev/blog/2022/03/12/a-whole-new-hello-world-earth_africa/</loc>
+            <lastmod>2022-03-12T00:00:00+00:00</lastmod>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://jamesmillner.dev/projects/2-blackjackcli/</loc>
+            <lastmod>2020-11-16T00:00:00+00:00</lastmod>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://jamesmillner.dev/projects/</loc>
+            <lastmod>2020-11-16T00:00:00+00:00</lastmod>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://jamesmillner.dev/projects/1-dartsnow/</loc>
+            <lastmod>2020-02-05T00:00:00+00:00</lastmod>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://jamesmillner.dev/projects/3-mastermind/</loc>
+            <lastmod>2019-05-07T00:00:00+00:00</lastmod>
+          </url>
+    
+  
+    
+      <url>
+            <loc>https://jamesmillner.dev/about/</loc>
+          </url>
+    
+  
+    
+  
+    
+  
+</urlset>
