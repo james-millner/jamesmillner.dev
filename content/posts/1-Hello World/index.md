@@ -6,12 +6,12 @@ date: 2022-03-12
 showAuthor: true
 showDate: true
 showReadingTime: true
-showSummary: false
+showSummary: true
 ---
 
 # Hello :wave:
 
-Well this is new! Hello World! :earth_africa:
+Well this is new! Hello World! 
 
 I've created this small site to organise my online space, share a bit more about the projects and work that 
 I'm interested in, and to share some ramblings. 
