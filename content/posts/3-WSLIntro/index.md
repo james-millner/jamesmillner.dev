@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: "wsl"
-title: "My Experience with WSL"
+title: "Local Dev Experience with WSL"
 date: 2022-04-23
 showAuthor: true
 showDate: true
@@ -11,8 +11,6 @@ showSummary: true
 {{< badge >}}
 New article!
 {{< /badge >}}
-
-# Local Dev Experience with WSL
 
 ## Introduction
 
@@ -135,6 +133,7 @@ Well, basically use WSL more! But there are a few things I'd like to try:
 
 * I miss for instance from macOS was being able to perform commands such as `atom .` to open all files in a simple text editor.
   * It looks like its possible, but I haven't quite figured it out yet. Currently its abit manual process of opening atom, navigating to the path and opening that space. I do miss `atom .`
+  * If you have any tips for this, please get in touch!
 * Try and get a solid setup of my dotfiles. I've seen quite a few developers commit their dotfile setups, so I'd like to try to do something similar.
   * This would definitely help with writing up a how-to on WSL in future, as I could trash my current setup and write up a setup guide.
   * But also for any future development machines in general.
