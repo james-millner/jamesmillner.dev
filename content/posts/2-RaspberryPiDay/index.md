@@ -9,9 +9,6 @@ showReadingTime: true
 showTableOfContents: true
 showSummary: true
 ---
-{{< badge >}}
-New article!
-{{< /badge >}}
 
 # Happy Raspberry Pi Day!
 
