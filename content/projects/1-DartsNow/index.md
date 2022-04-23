@@ -19,13 +19,16 @@ amount of legs they wanted to play, and to a total of 701, 501, 301, 101. It pro
 from each game, while also offering peer to peer video via WebRTC to communicate with friends as you played.
 
 ## Features
+* Web front end designed with mobile first focus
 * User registration
 * Live Darts Scoring
-* Peer to Peer video in game
+* Peer to Peer video calling within a match
+* Match History Stats and Scoring
 
 ## Tech Bits
 * Spring Boot Backend 
 * Thymeleaf Templated Front End
+* Material UI Design
 * Websocket implementation for live scoring
 * WebRTC integration
 * Metrics using Micrometer, stored and visualised using Prometheus & Grafana.
