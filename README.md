@@ -13,3 +13,7 @@ At the time of writing I have:
 * hugo v0.94.1+extended 
 
 In order to run the site.
+
+## Run Instructions
+
+1. `hugo server`
