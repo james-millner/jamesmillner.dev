@@ -7,11 +7,8 @@ showAuthor: true
 showDate: true
 showReadingTime: true
 showSummary: true
+showComments: true
 ---
-{{< badge >}}
-New article!
-{{< /badge >}}
-
 ## Introduction
 
 It's getting pretty late this April, and I've been thinking about what I could write about to post here this month.

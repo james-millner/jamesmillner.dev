@@ -8,6 +8,7 @@ showDate: true
 showReadingTime: true
 showTableOfContents: true
 showSummary: true
+showComments: true
 ---
 
 # Happy Raspberry Pi Day!

@@ -7,6 +7,7 @@ showAuthor: true
 showDate: true
 showReadingTime: true
 showSummary: true
+showComments: false
 ---
 
 # Hello :wave:
