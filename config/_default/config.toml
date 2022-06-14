@@ -9,3 +9,6 @@ posts = "/blog/:year/:month/:day/:slug/"
 
 [outputs]
 home = [ "HTML", "RSS", "JSON" ]
+
+[markup.goldmark.renderer]
+unsafe= true
