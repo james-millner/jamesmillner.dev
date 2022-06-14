@@ -26,7 +26,7 @@
     <footer class="pt-8 max-w-prose print:hidden">
         {{ partial "author.html" . }}
         {{ partial "sharing-links.html" . }}
-
+        {{ partial "article-pagination.html" . }}
         {{ if .Params.showComments }}
         <!-- Start utterances code -->
         <!-- a lightweight comments widget built on GitHub issues -->
@@ -40,8 +40,6 @@
         </script>
         {{ end }}
         <!-- End utterances code -->
-
-        {{ partial "article-pagination.html" . }}
     </footer>
 </article>
 {{ end }}

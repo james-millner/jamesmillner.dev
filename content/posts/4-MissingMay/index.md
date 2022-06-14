@@ -27,7 +27,7 @@ However, there are a few topics I'm working on to do write-ups for in the very n
   * Road biking :biking_man: :mountain_biking_man:
   * Weight Lifting :weight_lifting_man:
 * Re familiarising with GraphQL
-  * During May my team at [Sky Betting & Gaming](https://www.linkedin.com/company/sky-betting-and-gaming/) did a Hackathon around GraphQL for some upcoming work in our team. It was fascinating, especially looking at how far framework support has come. Using tools provided by [Spring](https://spring.io/) & [Micronaut](https://micronaut.io/)
+  * During May my team at [Sky Betting & Gaming](https://www.linkedin.com/company/sky-betting-and-gaming/) did a Hackathon around GraphQL for some upcoming work in our team. It was fascinating, especially looking at how far framework support has come. Using tools provided by [Spring](https://spring.io/) & [Micronaut](https://micronaut.io/).
   * I did lean towards [Micronauts](https://guides.micronaut.io/latest/micronaut-graphql-gradle-kotlin.html) support, purely down to how fast we got something up and running. The documentation was clear and it was a great experience!
 * Kotlin Coroutines
   * So far I've got by without a lot of Coroutine / Threading experience. I want to fix that, and publish a post about my L&D surrounding it. Rather than do the same thing over and over
