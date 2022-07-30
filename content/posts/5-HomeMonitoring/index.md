@@ -294,7 +294,7 @@ Once all that is in place, after a few moments you should see prometheus pickup 
 
 Then you've successfully started to monitor applications internally! Prometheus will scrape your application every 10 seconds and start to hold a record of all associated metrics. 
 
-<iframe src="https://giphy.com/embed/1jkV5ifEE5EENHESRa" width="480" height="368" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/reaction-mood-1jkV5ifEE5EENHESRa">via GIPHY</a></p>
+<iframe src="https://giphy.com/embed/1jkV5ifEE5EENHESRa" width="100%" height="368" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/reaction-mood-1jkV5ifEE5EENHESRa">via GIPHY</a></p>
 
 ## Monitoring Externally
 
