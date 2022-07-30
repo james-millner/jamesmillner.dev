@@ -468,7 +468,7 @@ There were a few minor adjustments I had to make to get it working as I hoped:
 There's also some bits that aren't working as expected, but these are mainly bound to node-exporter and some old hardware:
 
 * The Synology NAS seems to be running an old Linux Kernel that doesn't allow node-exporter to grab all the same metrics that the other hosts can grab
-  * [https://github.com/prometheus/node_exporter/issues/1689](https://github.com/prometheus/node_exporter/issues/1689) - e.g `node_memory_MemAvailable_bytes` 
+  * [Node Exporter Issue: 1689](https://github.com/prometheus/node_exporter/issues/1689) - e.g `node_memory_MemAvailable_bytes` 
   * Since the NAS is on an instance of DSM, I'm not too sure what the underlying distro is that it uses - so it's mainly a limitation of that host.
 
 ## Conclusion
