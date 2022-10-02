@@ -39,7 +39,7 @@ I'm also very keen in the world of **DevOps** and **Containerization**. Fascinat
 
 ### Experience
 
-I'm currently working as a Senior Software Engineer at [Sky Betting & Gaming](https://www.linkedin.com/company/sky-betting-and-gaming/), based in [Leeds](https://goo.gl/maps/TMkUkiwJ5Lweay9i6).
+I'm currently working as a Software Engineer at [10x Banking](https://www.linkedin.com/company/10x-banking/), remotely in [Huddersfield](https://goo.gl/maps/o8qTcvcTcBus3aZZ6).
 
 Rather than duplicate my experience on here, my full professional experience can be found over on [LinkedIn](https://www.linkedin.com/in/james-millner-26a7974a/)
 
