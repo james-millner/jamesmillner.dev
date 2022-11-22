@@ -13,6 +13,7 @@ links = [
   { telegram = "https://t.me/JimmyMillner" },
   { github = "https://github.com/james-millner" },
   { linkedin = "https://www.linkedin.com/in/james-millner-26a7974a/" },
+  { mailto = "hello@jamesmillner.dev" },
 ]
 
 [share-links-active]
