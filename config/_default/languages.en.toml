@@ -14,6 +14,7 @@ links = [
   { github = "https://github.com/james-millner" },
   { linkedin = "https://www.linkedin.com/in/james-millner-26a7974a/" },
   { email = "mailto:hello@jamesmillner.dev" },
+  { calendar = "https://cal.com/jamesmillner" },
 ]
 
 [share-links-active]
