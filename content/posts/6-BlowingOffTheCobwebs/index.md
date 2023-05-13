@@ -44,7 +44,7 @@ Probably the biggest disruption, but very welcome change to my usual antics, is 
 moment and welcomed my daughter into the world. 
 
 It's been a turbulent period of learning how to cope with a young human, who's
-day-to-day routine is eat, sleep, poop, repeat. But it's been incredibly rewarding, humbling, and fulfilling.
+day-to-day routine is eat, sleep, poop, cry, repeat. But it's been incredibly rewarding, humbling, and fulfilling.
 
 However, for the time being this part of my life remains in offline mode. Especially while
 we figure out what the hell we're doing!
@@ -76,7 +76,7 @@ Here's a recent 5K and a bit I ran that I was quite impressed with! Although hob
 
 <div class="strava-embed-placeholder" data-embed-type="activity" data-embed-id="9045185639"></div><script src="https://strava-embeds.com/embed.js"></script>
 
-The cycling has definitely helped with that, <b>so it's not entirely couch to 5k</b>, more avid peddler-with-a-small-toe-in-the-water-for-triathlon-without-swimming! 
+The cycling has definitely helped with that, <b>so it's not entirely couch to 5k</b>, more avid cyclist to 5k! 
 
 ## Other updates
 
