@@ -77,3 +77,12 @@ Here's a recent 5K and a bit I ran that I was quite impressed with! Although hob
 <div class="strava-embed-placeholder" data-embed-type="activity" data-embed-id="9045185639"></div><script src="https://strava-embeds.com/embed.js"></script>
 
 The cycling has definitely helped with that, <b>so it's not entirely couch to 5k</b>, more avid peddler-with-a-small-toe-in-the-water-for-triathlon-without-swimming! 
+
+## Other updates
+
+One that's flown largely under the radar is that you can now schedule a call with me via [cal.com](https://github.com/calcom/cal.com). It's such a neat open source calendar alternative
+that syncs directly with your favourite calendars! So if you want to catch up about an opportunity, or want to discuss projects 
+feel free to slot something in, and I'll get back to you! 
+
+As always though if that doesn't work, find me on my socials linked here. Or comment below and I'll get back to you there too!
+
