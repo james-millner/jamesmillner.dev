@@ -81,8 +81,10 @@ The cycling has definitely helped with that, <b>so it's not entirely couch to 5k
 ## Other updates
 
 One that's flown largely under the radar is that you can now schedule a call with me via [cal.com](https://github.com/calcom/cal.com). It's such a neat open source calendar alternative
-that syncs directly with your favourite calendars! So if you want to catch up about an opportunity, or want to discuss projects 
-feel free to slot something in, and I'll get back to you! 
+that syncs directly with your favourite calendars! 
 
-As always though if that doesn't work, find me on my socials linked here. Or comment below and I'll get back to you there too!
+It's available using the <b>@</b> link in my socials either on my about page, or below each post. So if you want to catch up about an opportunity, or want to discuss projects 
+feel free to slot something in, and I'll get back to you!
+
+As always though if that doesn't work, find me on my socials linked here. Or comment below, and I'll get back to you there too!
 
