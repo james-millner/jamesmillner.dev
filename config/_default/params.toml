@@ -5,6 +5,3 @@ mainPosts = ["posts"]
 showAppearanceSwitcher = true
 enableSearch = true
 showScrollToTop = true
-
-[fathomAnalytics]
-site = "RCFFTRLS"
