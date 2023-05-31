@@ -15,7 +15,3 @@ links = [
   { email = "mailto:hello@jamesmillner.dev" },
   { calendar = "https://cal.com/jamesmillner" },
 ]
-
-[share-links-active]
-  twitter = true
-  linkedin = true
