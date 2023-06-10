@@ -9,9 +9,9 @@ showReadingTime: false
 
 ### Hi :wave:
 
-My name is James Millner, and I'm currently living in [Huddersfield, West Yorkshire, UK](https://goo.gl/maps/8uTjwXLdxJSrSfUc6) but have always lived in Yorkshire (_insert yorkshire chant_). 
+My name is James Millner, and I'm currently living in [Huddersfield, West Yorkshire, UK](https://goo.gl/maps/b2JDpuxTTg5BFTe88) but have always lived in Yorkshire (_insert yorkshire chant_). 
 
-I'm a motivated Software Developer and enjoy tinkering within the Software Engineering space as often as I can. I love cycling, after taking up the sport in **2018** it's thoroughly taken over my spare time. It's also given me a huge appreciation for West Yorkshire, although it is very hilly! :mountain: Since 2018 I've clocked over 10,000KM in distance, and counting!
+I'm a Software Developer and enjoy tinkering within the Software Engineering space as often as I can. I love cycling, after taking up the sport in **2018** it's thoroughly taken over my spare time. It's also given me a huge appreciation for West Yorkshire, although it is very hilly! :mountain: Since 2018 I've clocked over 10,000KM in distance, and counting!
 
 ![Ah Huddersfield](images/cycling-collage.PNG "Some lovely Huddersfield hills, and the trusty stead!")
 
