@@ -1,5 +1,12 @@
 title = "James Millner"
 
+languageCode = "en"
+languageName = "English"
+displayName = "EN"
+htmlCode = "en"
+weight = 1
+rtl = false
+
 [author]
 name = "James Millner"
 image = "img/avatar.jpg"

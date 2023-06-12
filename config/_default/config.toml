@@ -12,3 +12,6 @@ home = [ "HTML", "RSS", "JSON" ]
 
 [markup.goldmark.renderer]
 unsafe= true
+
+paginate = 10
+summaryLength = 0
