@@ -23,10 +23,9 @@ So with that in mind, I thought it high-time that I put a post up here to detail
 
 ### Professionally
 
-I've moved out of the gambling and entertainment space for now. I'm working in Java at the moment, for the time 
-being over in the FinTech world. I'm working as a Software Engineer 
+I've moved out of the gambling and entertainment space for now. Currently, I'm working in Java in the FinTech sector. I'm a Software Engineer 
 at [10x Banking](https://www.linkedin.com/company/10x-banking/), 
-remotely in [Huddersfield](https://goo.gl/maps/o8qTcvcTcBus3aZZ6) working on cloud native banking.
+working remotely in [Huddersfield](https://goo.gl/maps/o8qTcvcTcBus3aZZ6) on cloud native banking.
 
 Technology wise, in my spare time, I'm trying to keep active with:
 * The Kotlin space! 
