@@ -8,7 +8,11 @@ showDate: true
 showReadingTime: true
 ---
 
-The 'kotlin-fit-converter' repository, as the name suggests, is a Kotlin-based library for handling FIT data conversions. 
+The Kotlin Fit Converter Library is a Kotlin utility for converting Garmin FIT files into different formats like JSON and Protobuf. 
+
+It uses version 21.115.00 of the Garmin FIT SDK, which enables reading FIT files. FIT is a protocol for storing and sharing data from fitness devices. 
+The library has an easy-to-use API for integrating FIT conversion into Kotlin or Java applications.
+It converts to Kotlin data classes, JSON, and Protobuf. Requirements are JDK 19+, Kotlin 1.8.22+, and a FIT file to convert. Usage requires accepting the Garmin FIT SDK license agreement. 
 
 For a full background on the library, head to my blog post it's related to [here](/blog/2023/07/08/all-things-fit-%EF%B8%8F/)
 
@@ -19,19 +23,18 @@ It includes:
   * JSON
   * Protobuf
 * Spring-like conversion interface and a generic service. Allowing its users to create their own set of Converters for doing their own FIT conversion.
-* Github action workflow for tests. The repository also includes Jacoco for test coverage reports and Maven for publishing to local / Github Packages.
+* GitHub action workflow for tests. The repository also includes Jacoco for test coverage reports and Maven for publishing to local / Github Packages.
 * Dokka generated docs
 
 ![Docs Home](dokka-docs-home.png "Dokka Home Page")
 
 ![Example](dokka-docs-dataclass.png "Example data class documentation")
  
-It's a small library based project that I aim to continue to add to. It's currenting running a SemVer versioning strategy. 
-
-Tech wise:
+Technology Used:
 
 * Gradle Library Project
 * Garmin FIT SDK 
+  * Version: 21.115.00
 * KotlinX Serialization
 * Automated workflow to build / publish new versions
 * Dokka documentation 
