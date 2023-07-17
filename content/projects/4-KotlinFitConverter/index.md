@@ -10,7 +10,7 @@ showReadingTime: true
 
 The 'kotlin-fit-converter' repository, as the name suggests, is a Kotlin-based library for handling FIT data conversions. 
 
-For a full background on the library, head to my blog post it's related to [here](/blog/2023/07/07/all-things-fit-%EF%B8%8F/)
+For a full background on the library, head to my blog post it's related to [here](/blog/2023/07/08/all-things-fit-%EF%B8%8F/)
 
 It includes:
 
