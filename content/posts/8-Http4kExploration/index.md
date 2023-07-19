@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: ""
-title: "Wahoo & HTTP4K :cloud:"
+title: "Code Cadence 📈: Wahoo & HTTP4K!"
 date: 2023-07-19
 showAuthor: true
 showDate: true
@@ -13,7 +13,9 @@ showTableOfContents: true
 
 # Introduction 
 
-I'll keep this one brief to be honest. In my spare time, I've been working on a few projects recently around RESTful API's. 
+I'll keep this one brief to be honest. ChatGPT provided some inspiration for a title for this. 
+
+In my spare time, I've been working on a few projects recently around RESTful API's. 
 I've been using Spring Boot since the dawn of time, and I'm a big fan of it. However, I've been looking for something a bit more lightweight and Kotlin friendly.
 
 Also, just something a bit different. Something simple, easy to use, and just get running. I think I've found it with HTTP4K.
