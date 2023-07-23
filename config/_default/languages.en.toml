@@ -2,16 +2,21 @@ title = "James Millner"
 
 languageCode = "en"
 languageName = "English"
-displayName = "EN"
-htmlCode = "en"
 weight = 1
+
+[languages]
+[languages.en]
+htmlCode = "en"
+displayName = "EN"
 rtl = false
+
 
 [author]
 name = "James Millner"
 image = "img/avatar.jpg"
 headline = "UK-based Software Engineer and avid cyclist, fitness enthusiast, settled in Huddersfield, Yorkshire."
 links = [
+  { blueskysocial = "https://bsky.app/profile/jamesmillner.dev" },
   { twitter = "https://twitter.com/_jamesmillner" },
   { youtube = "https://www.youtube.com/channel/UCNLK4hRA46Oe21VKoXweM-A/featured" },
   { strava = "https://www.strava.com/athletes/james_millner" },

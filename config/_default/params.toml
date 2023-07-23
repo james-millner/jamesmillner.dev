@@ -5,5 +5,5 @@ mainPosts = ["posts"]
 defaultAppearance = 'dark'
 autoSwitchApperance = true
 enableSearch = true
-showScrollToTop = true
+footer.showScrollToTop = true
 footer.showAppearanceSwitcher = true
