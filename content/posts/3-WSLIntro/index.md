@@ -3,6 +3,7 @@ layout: page
 permalink: "wsl"
 title: "Local Dev Experience with WSL"
 date: 2022-04-23
+thumbnail: "images/wsl.png"
 showAuthor: true
 showDate: true
 showReadingTime: true

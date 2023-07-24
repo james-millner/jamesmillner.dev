@@ -3,6 +3,7 @@ layout: page
 permalink: ""
 title: "Blowing off the cobwebs :spider_web:"
 date: 2023-05-11
+thumbnail: "images/cobweb-thumb.jpg"
 showAuthor: true
 showDate: true
 showReadingTime: true

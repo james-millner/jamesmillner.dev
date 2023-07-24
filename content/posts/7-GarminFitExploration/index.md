@@ -3,6 +3,7 @@ layout: page
 permalink: ""
 title: "All things FIT 🚴‍♂️"
 date: 2023-07-08
+thumbnail: "images/fit-thumb.png"
 showAuthor: true
 showDate: true
 showReadingTime: true
@@ -10,6 +11,8 @@ showSummary: true
 showComments: true
 showTableOfContents: true
 ---
+
+![FIT ecosystem diagram showing all the devices that FIT works with and for. On the left of the image it shows a collection of sensors. They communicate with a device, pictured center. To which the device picture center, communicates out to fitness platforms, pictured right. ](images/fit-eco-system.png)
 
 ## Introduction
 

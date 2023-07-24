@@ -3,6 +3,7 @@ layout: page
 permalink: ""
 title: "Where'd May Go? :loudspeaker:"
 date: 2022-06-14
+thumbnail: "images/may-thumb.png"
 showAuthor: true
 showDate: true
 showReadingTime: true

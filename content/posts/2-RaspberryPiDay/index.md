@@ -3,6 +3,7 @@ layout: page
 permalink: "raspberry-pi-day"
 title: "Raspberry Pi Day!"
 date: 2022-03-14
+thumbnail: "images/raspberrypi-thumb.png"
 showAuthor: true
 showDate: true
 showReadingTime: true
@@ -10,6 +11,8 @@ showTableOfContents: true
 showSummary: true
 showComments: true
 ---
+
+![Raspberry Pi Foundation Logo. A lovely Raspberry!](images/raspberrypi-thumb.png)
 
 # Happy Raspberry Pi Day!
 

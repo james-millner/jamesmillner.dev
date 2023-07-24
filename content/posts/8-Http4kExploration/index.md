@@ -3,6 +3,7 @@ layout: page
 permalink: ""
 title: "Code Cadence 📈: Wahoo & HTTP4K!"
 date: 2023-07-19
+thumbnail: "images/http4k-thumb.png"
 showAuthor: true
 showDate: true
 showReadingTime: true
@@ -10,6 +11,8 @@ showSummary: true
 showComments: true
 showTableOfContents: true
 ---
+
+![http4k introduction - states http4k provides a sinmple and uniform way to serve, consumer and test HTTP services](images/http4k.png)
 
 # Introduction 
 

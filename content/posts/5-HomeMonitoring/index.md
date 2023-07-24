@@ -3,6 +3,7 @@ layout: page
 permalink: ""
 title: "Monitoring the world :bar_chart:"
 date: 2022-07-29
+thumbnail: "images/grafana-thumb.png"
 showAuthor: true
 showDate: true
 showReadingTime: true
