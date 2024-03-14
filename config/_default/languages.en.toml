@@ -4,6 +4,7 @@ languageCode = "en"
 languageName = "English"
 weight = 1
 
+[languages]
 [languages.en]
 htmlCode = "en"
 displayName = "EN"
