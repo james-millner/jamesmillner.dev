@@ -14,7 +14,7 @@ rtl = false
 [params.author]
 name = "James Millner"
 image = "img/avatar.jpg"
-headline = "UK-based Software Engineer and avid cyclist, fitness enthusiast, settled in Huddersfield, Yorkshire."
+headline = "UK-based Software Engineer with a passion for cycling and fitness, based in Huddersfield, Yorkshire."
 links = [
   { blueskyweb = "https://bsky.app/profile/jamesmillner.dev" },
   { x = "https://twitter.com/_jamesmillner" },
