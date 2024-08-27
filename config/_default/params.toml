@@ -1,4 +1,4 @@
-colorScheme = "avocado"
+colorScheme = "ocean"
 homepage.layout = "profile"
 homepage.showRecent = true
 mainPosts = ["posts"]
