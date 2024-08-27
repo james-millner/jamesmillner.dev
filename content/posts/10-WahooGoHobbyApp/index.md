@@ -12,7 +12,7 @@ showComments: true
 showTableOfContents: true
 ---
 
-<iframe src="https://giphy.com/embed/nuSGIWVeHOpF442G3m" width="480" height="343" style="" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/fallontonight-mario-chris-pratt-wahoo-nuSGIWVeHOpF442G3m">via GIPHY</a></p>
+<iframe class="w-16 sm:w-8 md:w-32 lg:w-48" src="https://giphy.com/embed/nuSGIWVeHOpF442G3m" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/fallontonight-mario-chris-pratt-wahoo-nuSGIWVeHOpF442G3m">via GIPHY</a></p>
 
 ## Introduction
 
@@ -20,6 +20,8 @@ I have been using Wahoo products for a while now and I have to say that I am a b
 they have been my go to toolset for cycling. As stated a few times on this blog, I'm also a techie and I love to tinker with things. So when I found out that Wahoo had an API, I thought I'd take the opportunity to have a play.
 
 If you're not familiar with [Wahoo](https://uk.wahoofitness.com/) they are a fitness technology company that has been around for a while now. They offer a range of products that are designed to help you get the most out of your workouts.
+
+It's a bit cheeky of me, but I have done a similar exercise with [Kotlin and http4k](https://jamesmillner.dev/blog/2023/07/19/code-cadence-wahoo-http4k/), but I've added a lot more testing, and the Fly integration here is very slick and neat. So stay tuned!
 
 ## The Wahoo API
 
