@@ -1,5 +1,5 @@
 {{ with .Site.Language.Params.Author.links }}
-  <div class="flex text-neutral-400 dark:text-neutral-500">
+  <div class="flex flex-wrap justify-center text-neutral-400 dark:text-neutral-500">
     {{ range $links := . }}
       {{ range $name, $url := $links }}
         <a
