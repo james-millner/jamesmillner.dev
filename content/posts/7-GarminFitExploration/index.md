@@ -61,7 +61,7 @@ In summary, FIT has been developed by Garmin for Garmin devices primarily. GPX i
 
 ## What's FITting in here then?
 
-<iframe src="https://giphy.com/embed/cWvSvMEW6yGY6CGjWT" width="480" height="400" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/theoffice-episode-12-the-office-tv-cWvSvMEW6yGY6CGjWT">via GIPHY</a></p>
+<iframe src="https://giphy.com/embed/cWvSvMEW6yGY6CGjWT"  frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/theoffice-episode-12-the-office-tv-cWvSvMEW6yGY6CGjWT">via GIPHY</a></p>
 
 Couldn't resist. Sorry. 
 
