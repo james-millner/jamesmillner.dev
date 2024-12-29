@@ -7,3 +7,6 @@ autoSwitchApperance = true
 enableSearch = true
 footer.showScrollToTop = true
 footer.showAppearanceSwitcher = true
+
+[fathomAnalytics]
+site = "FGWGRBBV"
