@@ -7,7 +7,7 @@ thumbnail: "images/dontasktoask.webp"
 showAuthor: true
 showDate: true
 showReadingTime: true
-showSummary: true
+showSummary: false
 showComments: true
 showTableOfContents: true
 ---

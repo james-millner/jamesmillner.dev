@@ -7,6 +7,7 @@ thumbnail: "images/cobweb-thumb.jpg"
 showAuthor: true
 showDate: true
 showReadingTime: true
+summary: "Turning 404 not found into something new!"
 showSummary: true
 showComments: true
 showTableOfContents: true

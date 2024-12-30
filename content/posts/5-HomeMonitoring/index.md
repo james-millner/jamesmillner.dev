@@ -7,6 +7,7 @@ thumbnail: "images/grafana-thumb.png"
 showAuthor: true
 showDate: true
 showReadingTime: true
+summary: "A hit and miss topic for engineering, monitoring & observability. Here's a few of my thoughts on some of my favourite tools, and why I think they're neat and powerful."
 showSummary: true
 showComments: true
 showTableOfContents: true

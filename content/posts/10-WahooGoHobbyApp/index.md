@@ -8,6 +8,7 @@ showAuthor: true
 showDate: true
 showReadingTime: true
 showSummary: true
+summary: "An article about what I built using Go, interacting with the Wahoo Cycling Computer Ecosystem."
 showComments: true
 showTableOfContents: true
 ---

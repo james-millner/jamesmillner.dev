@@ -8,6 +8,7 @@ showAuthor: true
 showDate: true
 showReadingTime: true
 showSummary: true
+summary: "A small journey into my journey with Windows Linux Subsystem for Linux."
 showComments: true
 ---
 ## Introduction

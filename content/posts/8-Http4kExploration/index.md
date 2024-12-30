@@ -8,6 +8,7 @@ showAuthor: true
 showDate: true
 showReadingTime: true
 showSummary: true
+summary: "A brief article about what I built using Http4K in Kotlin with the Wahoo Cycling Computer Ecosystem."
 showComments: true
 showTableOfContents: true
 ---

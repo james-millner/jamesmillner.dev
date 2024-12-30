@@ -8,6 +8,7 @@ showAuthor: true
 showDate: true
 showReadingTime: true
 showSummary: true
+summary: "A small side project piece about working with FIT data files. This article details what I've been up to, and what I've produced as a result."
 showComments: true
 showTableOfContents: true
 ---

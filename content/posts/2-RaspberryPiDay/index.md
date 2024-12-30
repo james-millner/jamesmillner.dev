@@ -9,6 +9,7 @@ showDate: true
 showReadingTime: true
 showTableOfContents: true
 showSummary: true
+summary: "Throw your hands in the air for Raspberry Pi Day! Also note, enjoy pie!"
 showComments: true
 ---
 

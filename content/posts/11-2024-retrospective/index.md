@@ -8,6 +8,7 @@ showAuthor: true
 showDate: true
 showReadingTime: true
 showSummary: true
+summary: "A year in review of 2024 for me. My first attempt at recapping big moments of the year, and thinking about the year ahead."
 showComments: true
 showTableOfContents: true
 ---
