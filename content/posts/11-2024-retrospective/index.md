@@ -25,7 +25,7 @@ intentions of posting here more frequently and sharing more about what I've been
 The last time I wrote something like this was back in [May 2023](https://jamesmillner.dev/blog/2023/05/11/blowing-off-the-cobwebs-spider_web/) 
 after the birth of my Daughter. 2024 has been such a <b>big year in so many ways</b>, I felt inspired to put the keyboard to work and jot down some thoughts.
 
-## Fatherhood
+## Fatherhood 
 
 By far, the biggest theme of the year which has been full of firsts. My soon-to-be 2-year-old has conquered many firsts this year and has taken champion 
 position in my daily life. Now don't get me wrong, it's been challenging, tiring and an emotional experience, and I'm a changed man because of it.
@@ -36,6 +36,15 @@ top of this post a big theme for 2024.
 
 She has and continues to capture my undivided attention. She's walking now more than ever, and I'm quite excited about the upcoming adventures we can go on together 
 and in the future.
+
+## Proposal (Late Edit!)
+
+Crikey after looking back on photos from the year, I'd missed a big one.
+I finally plucked up the courage to ask my partner of 10 years to marry me.
+Thankfully, she said yes!  
+
+It's not the most traditional route, granted, but I've long though it's been the right thing to do.
+I'm incredibly lucky to have such a special partner in my life, and we're excited to make official what we've known for a long time.
 
 ## Professional Work
 
