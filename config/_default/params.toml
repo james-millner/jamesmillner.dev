@@ -1,4 +1,4 @@
-colorScheme = "ocean"
+colorScheme = "fire"
 homepage.layout = "profile"
 homepage.showRecent = true
 mainPosts = ["posts"]
@@ -7,6 +7,8 @@ autoSwitchApperance = true
 enableSearch = true
 footer.showScrollToTop = true
 footer.showAppearanceSwitcher = true
+footer.showThemeAttribution = false
+footer.showCopyright = true
 
 [fathomAnalytics]
 site = "FGWGRBBV"
