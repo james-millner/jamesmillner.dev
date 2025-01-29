@@ -11,9 +11,9 @@ showReadingTime: false
 
 My name is James Millner, and I'm currently located in [Huddersfield, West Yorkshire, UK](https://goo.gl/maps/b2JDpuxTTg5BFTe88) but have always lived in the Yorkshire area. 
 
-I'm a Software Engineer primarily specialising in JVM based, event-driven applications. My experience is most recently routed in Kotlin, and is my hobby language of choice, but professionally 
-I've also built and maintained Java based applications. I've got a focus on building lean, efficient, reliable and maintainable software systems and have just over 7 years of experience in industry.
-My expertise lies in building applications that can handle asynchronous data flow and complex event-processing scenarios.
+I'm a Software Engineer primarily specialising in JVM based, event-driven applications. My experience is most recently routed in Java, but professionally 
+I've also built and maintained Kotlin-based applications. I love building lean, efficient, reliable and maintainable software systems. I have a lot of industry experience in the entertainment space, specifically in the gambling sector. More recently
+ though, I've been lucky enough to work in the FinTech space. 
 
 Beyond my professional life, I have a strong interest in cycling, after taking up the sport in **2018** it's thoroughly taken over my spare time. 
 It's given me a huge appreciation for West Yorkshire, although it is very hilly! :mountain: Since 2018 I've clocked over 10,000KM in distance, and counting! Find me on Strava & Komoot! 
@@ -32,11 +32,17 @@ It's given me a huge appreciation for West Yorkshire, although it is very hilly!
 
 ### Engineering Specific Notes
 
-I'm a huge advocate of Kotlin. Its expressive and concise nature takes writing JVM-based applications to a whole new level, which makes it a current hobby language of choice.
+I'm a huge advocate of Kotlin. Its expressive and concise nature takes 
+writing JVM-based applications to a whole new level. It's also a great 
+introduction into the world of functional programming.
 
-Spring Boot is another resource I often lean on. It simplifies the process of setting up stand-alone applications, eliminating a lot of the fuss associated with boilerplate code and infrastructure.
+Spring Boot is another resource I've got a lot of experience with.
+It simplifies the process of setting up stand-alone applications,
+eliminating a lot of the fuss associated with boilerplate code and infrastructure.
+That being said, it's not without its issues!
 
-I've also spent a good amount of time with Kafka, an event-streaming platform that's ideal for handling high-volume, real-time data. It's an integral part of the event-driven systems I work with, and lots of my professional experience
+I've also spent a good amount of time with Kafka, an event-streaming platform that's ideal for handling high-volume, real-time data. 
+It's an integral part of the event-driven systems I work with, and lots of my professional experience
 has interacted with it.
 
 In addition to application development, I've frequently been involved with Containerisation and DevOps, not just professionally, but also as a personal hobby. 
@@ -49,7 +55,7 @@ So, these are the bits of tech that get me up and coding in the morning!
 
 ### Experience
 
-I'm currently working as a Software Engineer at [10x Banking](https://www.10xbanking.com), remotely in [Huddersfield](https://goo.gl/maps/b2JDpuxTTg5BFTe88).
+I'm currently working as a Software Engineer at [Lendable](https://www.lendable.co.uk/), remotely in [Huddersfield](https://goo.gl/maps/b2JDpuxTTg5BFTe88).
 
 Rather than duplicate my experience on here, my full professional experience can be found over on [LinkedIn](https://www.linkedin.com/in/%F0%9F%9A%B4%E2%80%8D%E2%99%82%EF%B8%8Fjames-millner-26a7974a)
 
