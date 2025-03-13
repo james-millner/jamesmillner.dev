@@ -17,7 +17,6 @@ image = "img/avatar.jpg"
 headline = "UK-based Software Engineer with a passion for cycling and fitness, based in Huddersfield, Yorkshire."
 links = [
   { blueskyweb = "https://bsky.app/profile/jamesmillner.dev" },
-  { x = "https://twitter.com/_jamesmillner" },
   { youtube = "https://www.youtube.com/@WestYorkshireCyclist" },
   { strava = "https://www.strava.com/athletes/31142650" },
   { komoot = "https://www.komoot.com/user/813735907910?ref=wud" },
