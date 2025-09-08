@@ -43,7 +43,7 @@ Crikey after looking back on photos from the year, I'd missed a big one.
 I finally plucked up the courage to ask my partner of 10 years to marry me.
 Thankfully, she said yes!  
 
-It's not the most traditional route, granted, but I've long though it's been the right thing to do.
+It's not the most traditional route, granted, but I've long thought it's been the right thing to do.
 I'm incredibly lucky to have such a special partner in my life, and we're excited to make official what we've known for a long time.
 
 ## Professional Work
