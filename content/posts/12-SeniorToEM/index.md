@@ -8,7 +8,7 @@ showAuthor: true
 showDate: true
 showReadingTime: true
 showSummary: true
-summary: "An honest look at my ongoing jounrey from Senior Software Engineer to Engineering Manager."
+summary: "An honest look at my ongoing journey from Senior Software Engineer to Engineering Manager."
 showComments: true
 showTableOfContents: true
 ---
