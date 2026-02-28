@@ -17,11 +17,11 @@ showTableOfContents: true
 
 ## Introduction
 
-Lately, I've been spending a ton of time delving into FIT files, hence the corny title of this article, to uncover the large amount of information they hold. As I've mentioned in previous posts, I'm an avid cyclist and can often be found roaming around the hills in Huddersfield. Although, in most cases, I'm crawling slowly up them, especially if there is a cafe or pub at the top.
+Lately, I've been spending a ton of time delving into FIT files, hence the corny title of this article, to uncover the large amount of information they hold. As I've mentioned in previous posts, I'm an avid cyclist and can often be found roaming around the hills in Huddersfield. Although in most cases I'm crawling slowly up them. Especially if there is a cafe or pub at the top.
 
-Naturally, due to my profession, I've developed a keen interest in gathering as much data as possible. This pursuit has led me to acquire an array of sensors and trackers to stack up these values for my various cycling ventures. For my hardcore stats viewing, I've primarily relied on platforms like [Strava](https://strava.com/) and [VeloViewer](https://veloviewer.com/), of which the process is all automated through my Wahoo head unit.
+Naturally, due to my profession, I've developed a keen interest in gathering as much data as possible. This pursuit has led me to acquire an array of sensors and trackers to stack up these values for my various cycling ventures. For my hardcore stats viewing, I've primarily relied on platforms like [Strava](https://strava.com/) and [VeloViewer](https://veloviewer.com/). The process is all automated through my Wahoo head unit.
 
-While working on various side projects that haven't seen the light of day yet, I've attempted to juggle GPX and TCX files, as they are easily exportable. However, I haven't given much thought to the initial format until I came across FIT. Therefore, I decided to write a post about Garmin FIT and share what I've been doing in this area recently.
+While working on various side projects that haven't seen the light of day yet, I've attempted to juggle GPX and TCX files, as they are easily exportable. However, I haven't given much thought to the initial format until I came across FIT. So I decided to write a post about Garmin FIT and share what I've been doing in this area recently.
 
 ## What is the FIT protocol?
 
@@ -68,13 +68,13 @@ Couldn't resist. Sorry.
 
 So, I've talked a lot about FIT files and how amazing they are. But let's get back on track with the article.
 
-A FIT file is a binary file, and trying to manually decode it would be a pain. You'd probably end up losing your hair out and experiencing a lot of frustration. Luckily, that's where the Garmin [FIT SDK](https://developer.garmin.com/fit/overview/) comes in. The FIT SDK provides a set of tools to help you map, model, encode, and decode FIT files. However, it's a pretty complex beast, and you'll have plenty of fun digging through the documentation and navigating the different layers of the SDK. It's available in various programming languages, including C, C++, C#, Java, JavaScript, Objective-C, and Python.
+A FIT file is a binary file, and trying to manually decode it would be a pain. You'd probably end up losing your hair out and experiencing a lot of frustration. Luckily, that's where the Garmin [FIT SDK](https://developer.garmin.com/fit/overview/) comes in. The FIT SDK provides a set of tools to help you map, model, encode, and decode FIT files. However, it's a pretty complex beast. You'll have plenty of fun digging through the documentation and navigating the different layers of the SDK. It's available in various programming languages, including C, C++, C#, Java, JavaScript, Objective-C, and Python.
 
 Since I have a background in Java, I decided to explore the Java version of the SDK.
 
 ### Kotlin Fit Converter Lib
 
-I've put in some serious hours doing the heavy lifting, but there's still so much left to dive into. Instead of my usual strategy of constantly delaying and keeping things under wraps, I figured why not share what I've got so far? It's a way to let you in on the progress and get your thoughts on it.
+I've put in some serious hours doing the heavy lifting. There's still so much left to dive into. Instead of my usual strategy of constantly delaying and keeping things under wraps, I figured why not share what I've got so far? It's a way to let you in on the progress and get your thoughts on it.
 
 Introducing <b>The Kotlin Fit Converter Lib</b>! :tada: 
 

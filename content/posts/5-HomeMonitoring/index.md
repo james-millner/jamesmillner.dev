@@ -15,8 +15,8 @@ showTableOfContents: true
 
 # My Tool Belt: Prometheus & Grafana 
 
-One of the aspects of Software Engineering that I find particularly interesting is Monitoring & Observability. So this month I thought I'd whip up a small article on some work 
-I've been doing recently in this space. It can be a part of the Software Engineering lifecycle that may often get overlooked, but having good monitoring over your applications is very powerful and a confidence inspiring position to be in. 
+One of the aspects of Software Engineering that I find particularly interesting is Monitoring & Observability. So this month I thought I'd whip up a small article on some work
+I've been doing recently in this space. It can be a part of the Software Engineering lifecycle that may often get overlooked. Having good monitoring over your applications is very powerful and a confidence inspiring position to be in.
 This post will cover my tool belt for this topic, and some bits of information for setting these up, with some examples.
 
 ## Background
@@ -31,7 +31,7 @@ The tools that I primarily have experience with are [Prometheus](https://prometh
 
 ### Prometheus
 
-In relation to the above, Prometheus is an example of a monitoring tool. It offers the functionality to gather, store and query metrics. Prometheus collects metrics over a period of time using a pull based model and allows you to customize the
+In relation to the above, Prometheus is an example of a monitoring tool. It offers the functionality to gather, store and query metrics. Prometheus collects metrics over a period of time using a pull based model. It allows you to customize the
 frequency of how often it polls for data. 
 
 This is typically done by applications and systems exposing HTTP endpoints for prometheus to scrape metrics from. Metrics for prometheus have to be presented in line format, separated by a line feed character (n) terminating 
@@ -73,14 +73,14 @@ scrape_configs:
           application: 'application-monitoring'
 ```
 
-This tells prometheus where each application / system lives, the HTTP endpoint to collect from and how frequently you wish to poll those metrics. With that in place, you can then use prometheus to query those metrics as shown below:
+This tells prometheus where each application / system lives, the HTTP endpoint to collect from, and how frequently you wish to poll those metrics. With that in place, you can then use prometheus to query those metrics as shown below:
 
 ![Prometheus Monitoring](images/prometheus-monitoring-example-query.PNG "Example Prometheus Query")
 
 ### Grafana
 
-Grafana then on the other hand is the paired observability tool. It will allow you to take a view of the metrics you've gathered to explore their patterns and properties, and how they change over time. 
-Grafana is an open source solution for visualising time series data. It's compatible with a whole host of data sources such as Prometheus, Graphite, Influx DB, ElasticSearch, MySQL, PostgreSQL etc.
+Grafana then on the other hand is the paired observability tool. It will allow you to take a view of the metrics you've gathered to explore their patterns and properties, and how they change over time.
+Grafana is an open source solution for visualising time series data. It's compatible with a whole host of data sources. Prometheus, Graphite, Influx DB, ElasticSearch, MySQL, PostgreSQL etc.
 
 ![Grafana Monitoring](images/prometheus-monitoring.PNG "Example Dashboard")
 

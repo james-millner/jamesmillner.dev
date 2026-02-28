@@ -17,7 +17,7 @@ showTableOfContents: true
 
 ## Introduction
 
-I have been using Wahoo products for a while now and I have to say that I am a big fan. I have used their bike computers, heart rate monitors, their smart trainers. As an avid lycra-wearing bloke, 
+I have been using Wahoo products for a while now and I have to say that I am a big fan. I have used their bike computers, heart rate monitors, their smart trainers. As an avid lycra-wearing bloke,
 they have been my go to toolset for cycling. As stated a few times on this blog, I'm also a techie and I love to tinker with things. So when I found out that Wahoo had an API, I thought I'd take the opportunity to have a play.
 
 If you're not familiar with [Wahoo](https://uk.wahoofitness.com/) they are a fitness technology company that has been around for a while now. They offer a range of products that are designed to help you get the most out of your workouts.
@@ -32,7 +32,7 @@ As per the [Wahoo Developer Documentation](https://developers.wahooligan.com/clo
 
 ## Why Go?
 
-Well to be completely honest I really wanted to simply try something new. I've used bits of Go briefly in a hobby capacity in the past, but I've never really had the opportunity to use it in a professional capacity. So I thought this would be a good chance to get my hands dirty with it.
+Well to be completely honest I really wanted to simply try something new. I've used bits of Go briefly in a hobby capacity in the past. I've never really had the opportunity to use it in a professional capacity. So I thought this would be a good chance to get my hands dirty with it.
 
 There are a few reason's I thought I'd use Go for this project:
 
@@ -57,7 +57,7 @@ Simply the ease of setting that up has been a real positive for me. Certainly co
 
 ### The Negatives
 
-Ah, I hate to say it, but I do find Go's approach to error handling a bit cumbersome. While I write this in the 'Negatives' section I wince as I write this, as I can certainly see the benefits of it. 
+Ah, I hate to say it, but I do find Go's approach to error handling a bit cumbersome. While I write this in the 'Negatives' section I wince, as I can certainly see the benefits of it.
 But having to check for errors after every function call can be a bit of a pain. I've found myself writing a lot of boilerplate code to handle errors. 
 
 Though the tricky thing here is that Go is designed to be simply and easy to read, and there's no denying that the error handling is simple and easy to read. So I guess it's a bit of a trade off.

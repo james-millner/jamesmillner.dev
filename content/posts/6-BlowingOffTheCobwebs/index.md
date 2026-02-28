@@ -68,9 +68,9 @@ Another stat I like to set is my all-time distance goal in Strava, which I'm jus
 
 To add to the above, in a turn of events I've also picked up a bit of running. Late twenties' crisis much?
 
-This was partly inspired by my colleagues at 
+This was partly inspired by my colleagues at
 10x Banking, spurring on the couch to 10x challenge! I've never been much of a runner. I recall getting awful shin splits
-when I was carrying more weight, but I've recently managed to do a few 5ks 
+when I was carrying more weight. I've recently managed to do a few 5ks
 (a mixture of hobbling and walking, but I'm getting there!) and I'm hoping to attend my local park-run soon enough!
 
 Here's a recent 5K and a bit I ran that I was quite impressed with! Although hobbled home afterwords:

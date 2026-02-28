@@ -14,23 +14,23 @@ showComments: true
 ## Introduction
 
 It's getting pretty late this April, and I've been thinking about what I could write about to post here this month.
-So since April is coming to an end, and I was still struggling for inspiration - I thought I might write about my local development environment, 
-specifically tailored around **Windows Subsystem for Linux**.
+So since April is coming to an end, and I was still struggling for inspiration, I thought I might write about my local development environment.
+Specifically tailored around **Windows Subsystem for Linux**.
 
 You might ask: 
 
 >What is Windows Subsystem for Linux?
 
-And it's a good question! In a nutshell; **it's a way to run a Linux environment directly on Windows without having to spin 
+And it's a good question! In a nutshell; **it's a way to run a Linux environment directly on Windows. Without having to spin
 up a virtual machine as and when you need it, or run a dual boot setup.**
 
 Now I'm mostly in the macOS camp when it comes to my day-to-day work capacity. It's one of the more common software
 developer machines I would hazard a guess. I currently work for Sky Betting & Gaming, and it's the development machine of choice there.
-They're great machines and ultimately aren't too far from their Linux counterparts. 
+They're great machines. Ultimately they aren't too far from their Linux counterparts. 
 
-I used to have a personal macbook, and I love the ecosystem there I must admit but after rebuilding my central gaming PC, I 
-thought I'd have a go at using that for local development! After all, I'd heard about WSL and how it had progressed, 
-this was my chance to really give it a try and its actually worked pretty seamlessly! So this post is dedicated to my 
+I used to have a personal macbook, and I love the ecosystem there I must admit. After rebuilding my central gaming PC, I
+thought I'd have a go at using that for local development! After all, I'd heard about WSL and how it had progressed.
+This was my chance to really give it a try and its actually worked pretty seamlessly! So this post is dedicated to my
 experience WSL, and how I've got things setup to do software development on Windows. 
 
 ## How I started with WSL
@@ -44,18 +44,18 @@ get access to it. However, more recently it is available publicly on the latest 
 won't go into the details of installing WSL in this article, I might do a further write-up of that down the line. Check out the 
 Microsoft documentation its surprisingly easy!
 
-WSL, at the time of writing, is supporting two versions - WSL 1 and WSL 2. All installations of WSL you would download now, all 
-fall to WSL 2 by default. Which when you [compare the versions](https://docs.microsoft.com/en-us/windows/wsl/compare-versions),
-it's a good thing - WSL 2 is a really polished system for local development on Windows and has come along way since the initial version.
+WSL, at the time of writing, is supporting two versions - WSL 1 and WSL 2. All installations of WSL you would download now, all
+fall to WSL 2 by default. When you [compare the versions](https://docs.microsoft.com/en-us/windows/wsl/compare-versions),
+it's a good thing. WSL 2 is a really polished system for local development on Windows and has come along way since the initial version.
 
-I briefly installed WSL 1 and had that up and running when it first launched, however it was more of an experiment to see 
-if I could get it working. I was amazed that Linux on Windows was a thing. It did work, and I could have made more of an effort to use it full-time, however at 
+I briefly installed WSL 1 and had that up and running when it first launched. However it was more of an experiment to see
+if I could get it working. I was amazed that Linux on Windows was a thing. It did work, and I could have made more of an effort to use it full-time. At
 the time of installing it I still had a personal Macbook, so would fall back to using that out of habit. 
 
-WSL 2 then launched in 2019 and shortly after that my partner was in dire need of replacing her old macbook development machine,
-so I gave her my old machine. This meant I only worked from my work machine for some time, however I wasn't comfortable 
-doing much personal development on there. Since after all it was a corporate machine meant for work. At the time I had a gaming rig that got 
-a lot of attention with PC gaming, but it wasn't until late 2020 / the start of 2021 when I rebuilt that rig and thought that I 
+WSL 2 then launched in 2019 and shortly after that my partner was in dire need of replacing her old macbook development machine.
+So I gave her my old machine. This meant I only worked from my work machine for some time. However I wasn't comfortable
+doing much personal development on there. After all it was a corporate machine meant for work. At the time I had a gaming rig that got
+a lot of attention with PC gaming. It wasn't until late 2020 / the start of 2021 when I rebuilt that rig and thought that I
 should try to use what I had, rather than purchase another development machine.
 
 ## What do I use?

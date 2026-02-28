@@ -19,8 +19,8 @@ showTableOfContents: true
 
 I'll keep this one brief to be honest. ChatGPT provided some inspiration for a title for this. 
 
-In my spare time, I've been working on a few projects recently around RESTful API's. 
-I've been using Spring Boot since the dawn of time, and I'm a big fan of it. However, I've been looking for something a bit more lightweight and Kotlin friendly.
+In my spare time, I've been working on a few projects recently around RESTful API's.
+I've been using Spring Boot since the dawn of time, and I'm a big fan of it. However I've been looking for something a bit more lightweight. And Kotlin friendly.
 
 Also, just something a bit different. Something simple, easy to use, and just get running. I think I've found it with HTTP4K.
 
@@ -47,7 +47,7 @@ In my previous post I also mentioned I've been looking at FIT files.
 The Wahoo Cloud API gives you access to a variety of workout data, but specifically of interest to me; FIT files. 
 So I'm looking to use that to pull down my ride data start to build a set of services around it.
 
-In an effort to learn more about the API itself, I thought I'd have a go with setting up a backend to handle the OAUth 2.0 authentication flow, and then use the API to pull down my ride data - although that's up next, in another chunk of development to come in the future.
+In an effort to learn more about the API itself, I thought I'd have a go with setting up a backend to handle the OAUth 2.0 authentication flow. Then use the API to pull down my ride data. Although that's up next, in another chunk of development to come in the future.
 
 However, I've got a small backend application up and available to check out on my [Github.](https://github.com/james-millner/kotlin-wahoo-cloud-api) I've been incredibly impressed with how simple, intuitive, and easy to use HTTP4K is. 
 

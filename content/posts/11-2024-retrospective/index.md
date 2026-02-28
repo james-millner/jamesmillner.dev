@@ -19,7 +19,7 @@ As 2024 draws to a close, I happened to stumble on a post by Max over on BlueSky
 data-bluesky-cid="bafyreidpjm2gqmnh37eqrge5d2y7lbiu5gv6353mh4tti7crhpustg5rey"><p lang="en">✏️ Bloggers: It&#x27;s time for 
 your annual year-in-review posts! I really like reading these - if you have one, let me know!</p>&mdash; Max Böck (<a href="https://bsky.app/profile/did:plc:d5umsb2ibiw7hzqkiwcs4sb7?ref_src=embed">@mxb.dev</a>) <a href="https://bsky.app/profile/did:plc:d5umsb2ibiw7hzqkiwcs4sb7/post/3legnlz4cis2z?ref_src=embed">Dec 29, 2024 at 8:57</a></blockquote><script async src="https://embed.bsky.app/static/embed.js" charset="utf-8"></script>
 
-It has only felt like two minutes since I set up this site, and I was a bit taken aback by this post. I had such grand 
+It has only felt like two minutes since I set up this site. I was a bit taken aback by this post. I had such grand
 intentions of posting here more frequently and sharing more about what I've been up to. 
 
 The last time I wrote something like this was back in [May 2023](https://jamesmillner.dev/blog/2023/05/11/blowing-off-the-cobwebs-spider_web/) 
@@ -27,8 +27,8 @@ after the birth of my Daughter. 2024 has been such a <b>big year in so many ways
 
 ## Fatherhood 
 
-By far, the biggest theme of the year which has been full of firsts. My soon-to-be 2-year-old has conquered many firsts this year and has taken champion 
-position in my daily life. Now don't get me wrong, it's been challenging, tiring and an emotional experience, and I'm a changed man because of it.
+By far, the biggest theme of the year which has been full of firsts. My soon-to-be 2-year-old has conquered many firsts this year and has taken champion
+position in my daily life. Now don't get me wrong, it's been challenging, tiring and an emotional experience. I'm a changed man because of it.
 
 I wouldn't change a second of it. While we're still so early on in our journey as parents, I couldn't be more proud of the confident, 
 charming and intelligent small human developing before my eyes. Now sorry if that's boring, but I wanted to shout from the 
@@ -79,8 +79,7 @@ by my cycling computer. Small work, but fun work nonetheless. All hosted and run
 
 This could be an entire post of its own, but I'm not sure if I can put into words yet a sensible post about it all. It's been a lot of work.
 
-Halfway through the year in June, we viewed a property that came back onto the market that we missed out on prior. We jumped at the chance to swoop it up, and 
-after a 3 and a half month solicitor duel we got the keys to our new home. The home is far from new, it's a 1901 Edwardian property that was a happy family home
+Halfway through the year in June, we viewed a property that came back onto the market that we missed out on prior. We jumped at the chance to swoop it up. After a 3 and a half month solicitor duel we got the keys to our new home. The home is far from new. It's a 1901 Edwardian property that was a happy family home
 to a local family for many years. 
 
 It's taken a lot of effort, DIY and renovation to get into, but we moved in at the start of December. Some of the achievements:

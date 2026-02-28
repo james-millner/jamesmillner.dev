@@ -17,17 +17,17 @@ showComments: true
 
 # Happy Raspberry Pi Day!
 
-I'm a day late writing this, but seeing that yesterday was Raspberry Pi day has prompted me to put some words out about 
-my experience with Raspberry Pi's - and a bit of a tutorial on how to set up what I have running currently.
+I'm a day late writing this, but seeing that yesterday was Raspberry Pi day has prompted me to put some words out about
+my experience with Raspberry Pi's. Plus a bit of a tutorial on how to set up what I have running currently.
 
 ## My Raspberry Pi Background
 
-I've always been interested in Raspberry Pi's due to the low barrier to entry, and their compact design. I mean a computer the size of a credit card?! 
-I remember nerdly thinking that this was *so cool*, and to be honest I still do!
+I've always been interested in Raspberry Pi's due to the low barrier to entry, and their compact design. I mean a computer the size of a credit card?!
+I remember nerdly thinking that this was *so cool*. To be honest I still do!
 
-I got my first Raspberry Pi back in 2018 - the 3 B+ model. At the time I only had the Pi itself with an SD card, and some cabling to hook it up to my router and to power it on. 
-It's a relatively cheap piece of kit to acquire in the UK. Nowadays, you can get [a starter kit](https://thepihut.com/products/raspberry-pi-starter-kit)
-for around £50, which will give you the essentials to get a machine up and running. 
+I got my first Raspberry Pi back in 2018 - the 3 B+ model. At the time I only had the Pi itself with an SD card, and some cabling to hook it up to my router and to power it on.
+It's a relatively cheap piece of kit to acquire in the UK. Nowadays you can get [a starter kit](https://thepihut.com/products/raspberry-pi-starter-kit)
+for around £50. That will give you the essentials to get a machine up and running. 
 
 They can be used for all sorts of wacky and wonderful ideas but at their core they are a tool to:
 * Learn programming languages
@@ -53,12 +53,12 @@ I loaded up Raspbian (_a Debian based linux distro specifically designed for Ras
 Due to the ease of use, I used to flash it back to normal time and time again - to repeatedly set it up. But I saw lots of projects setting up
 retro gaming consoles, pi robots, hue lighting automation. I never got that far, but never forgot about the trusty Pi!
 
-These devices are a great learning tool at any stage of your development! It opens up loads of possibilities to learn all about computing in an accessible way. 
-There's a shed load of support available online in the form of the [Raspberry Pi Foundation website](https://www.raspberrypi.org/), the [Raspberry Pi Forums](https://forums.raspberrypi.com/), and generally all over the internet.
+These devices are a great learning tool at any stage of your development! It opens up loads of possibilities to learn all about computing in an accessible way.
+There's a shed load of support available online. The [Raspberry Pi Foundation website](https://www.raspberrypi.org/), the [Raspberry Pi Forums](https://forums.raspberrypi.com/), and generally all over the internet.
 
 ## My Own Raspberry Pi Cluster
 
-At Sky Betting & Gaming, in the technology space we are a big Kubernetes house. Lots of our infrastructure runs on Kubernetes, and we've got lots of automation around it to enable all our squads to utilize it.
+At Sky Betting & Gaming, in the technology space we are a big Kubernetes house. Lots of our infrastructure runs on Kubernetes. We've got lots of automation around it to enable all our squads to utilize it.
 
 Now Kubernetes isn't particularly lightweight, 
 or so I thought before I discovered [K3s](https://k3s.io)
@@ -250,7 +250,7 @@ Now you can go ahead and run workloads on there, and K3s will balance work for y
   * So look for ways to convert your AMD64 apps to ARM, and test them out on here! 
   * GoLang has some great tooling to build ARM apps, package them build, build a docker container and away you go!
   * Plenty of ARM based docker base images out there to make your applications compliant.
-* K3s is fully [CNCF](https://www.cncf.io) certified and it conforms with the standard kubernetes API. It makes it the perfect demo cluster to get started with Kubernetes. If you can deploy something on K3s, you can lift and shift your YAML files and apply them to a larger scale cluster!
+* K3s is fully [CNCF](https://www.cncf.io) certified and it conforms with the standard kubernetes API. It makes it the perfect demo cluster to get started with Kubernetes. If you can deploy something on K3s, you can lift and shift your YAML files. Apply them to a larger scale cluster!
 
 ### Monitoring & Observability of your Cluster.
 
