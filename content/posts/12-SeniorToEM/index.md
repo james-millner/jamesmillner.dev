@@ -17,9 +17,9 @@ I've recently started, or well, feels like recently, my journey into Engineering
 
 ## Why I Made the Move
 
-I joined as a Senior Software Engineer in January 2025 at Lendable, an exciting FinTech start up based out of Shoreditch, London. A new company, a fresh start - I was excited to join as a Senior Engineer here as I'd come from a very Spring Framework heavy background, and Lendable hadn't gone for that approach. From the get-go, I focused on building strong relationships — understanding the people, the codebase, the problems. That part came naturally to me. I've always thought that good engineering is as much about communication as it is about what you can deliver in code.
+I joined Lendable as a Senior Software Engineer in January 2025, an exciting FinTech start up based out of Shoreditch, London. I was excited to join as a Senior Engineer here as I'd come from a very Spring Framework heavy background, and Lendable hadn't gone for that approach. From the get-go, I focused on building strong relationships — understanding the people, the codebase, the problems. That part came naturally to me. I've always thought that good engineering is as much about communication as it is about what you can deliver in code.
 
-About four months in, I was put forward for an Associate Engineering Manager role. I won't pretend I'd been plotting a management career for years — the opportunity presented itself because of a gap in the team, but also from the relationships I'd built and the trust that came with them.
+About four months in, I was put forward for an Associate Engineering Manager role. I won't pretend I'd been plotting a management career for years. I've always felt that Senior Engineer is a bit of a fork in the road. You can either continue to invest in the technical, growing more into broader technical leadership through staff / principle routes. Or you move into the people and delivery aspect. I've known for sometime that I'm motivated by working with people, so the management path was one I wanted to pursue.
 
 I'd be lying if I said I didn't hesitate. There's a real fear in stepping away from the thing you've spent your career getting good at. Writing code, solving technical problems, shipping features. I felt like I'd just got comfortable with that level of seniority. Was I giving that up? And was it too soon?
 
@@ -31,7 +31,7 @@ While the transition from Senior to Associate EM happened faster than I expected
 
 But other things were properly alien. You start being in rooms where decisions happen differently. Less "what's the right technical solution?" and more "what's the right thing to do given these competing priorities, this deadline, and these stakeholders who all want different outcomes?" The inputs are messier. The feedback loops are longer. You don't get the satisfying green tick of a passing build at the end of the day.
 
-I think the biggest adjustment in those early weeks and months, was realising that my output was no longer something I could point at. As an engineer, I could show you the PR, the feature, the fix. As a manager, my best work is often invisible — it's the meeting that prevented a problem, the conversation that kept someone from burning out, the decision that gave the team space to do their best work.
+I think the biggest adjustment in those early weeks and months, was realising that my output was no longer something I could point at. As an engineer, I could show you the tickets I'd shipped that week, the phsyical outputs IE a feature, or new layer of observability. As a manager, my best work is often invisible — it's the meeting that prevented a problem, the conversation that kept someone from burning out, the decision that gave the team space to do their best work.
 
 A big part of those early months was working alongside a supportive product counterpart. He backed me from early on, but not easily — he challenged me in the right ways. At times it was uncomfortable, but looking back, that discomfort was growth. Comfort rarely is.
 
@@ -41,17 +41,19 @@ This is the part I think is worth being honest about, because it's the stuff I d
 
 ### The Ambiguity
 
-As an engineer, you debug a failing test and eventually you find the answer. It's there, hiding in the code somewhere. Management problems aren't like that. Someone comes to you with a situation — maybe a team dynamic issue, maybe a delivery risk, maybe a decision about where to invest effort — and there's no definitively correct answer. There are just trade-offs with different consequences.
+As an engineer, you debug a failing test and eventually you find the answer. It's there, hiding in the code somewhere. Management problems aren't like that. Someone comes to you with a situation — maybe a team dynamic issue, maybe a delivery risk, maybe a decision about where to invest effort — and there's no definitively correct answer, or perhaps even solutions immedietly available. There are just trade-offs with different consequences.
 
-I knew this going in — you don't step into management expecting it to be like debugging. But knowing it intellectually and feeling it day-to-day are different things. It took me a while to stop reaching for a definitive answer and accept that sitting with ambiguity is part of the job, not a sign that you're doing it wrong. You gather context, you talk to people, you make a call, and then you live with it. Sometimes you get it right. Sometimes you learn. The discomfort doesn't fully go away — you just get better at navigating it.
+I knew this going in — you don't step into management expecting it to be like debugging. But knowing it and feeling it day-to-day are different things. 
+
+It took me a while to stop reaching for a definitive answer and accept that sitting with ambiguity is part of the job, not a sign that you're doing it wrong. You gather context, you talk to people, you make a call, and then you live with it. Sometimes you get it right. Sometimes you learn. The discomfort doesn't fully go away — you just get better at navigating it.
 
 ### The Loneliness
 
-This one surprised me the most, because it's not dramatic loneliness. It's subtle. You're still on the team, still in the stand-ups, still in the Slack channels. But there's a quiet repositioning that happens. You know things you can't always share. You make decisions that people might disagree with. You're no longer just another engineer who can have a good moan about a deadline or vent freely in a thread. Your communication has to tighten. What you say carries different weight now, and you start choosing your words more carefully — not because you're being political, but because you realise the impact is different.
+I've read a lot about this one, and I think it catches people off guard more than they expect. The idea that stepping into management can feel isolating — you're still on the team, still in the stand-ups, still in the Slack channels, but there's a subtle repositioning that happens. You know things you can't always share. You make decisions that not everyone will agree with. There's a natural shift in the dynamic.
 
-Nobody really prepares you for that shift. It's not a bad thing, necessarily — it's just different. And it takes a while to find your footing in it. It's something even to date, I still have to think about daily.
+Honestly though, I think I had a bit of an advantage here. I'd been part of the team as a senior engineer before stepping into the role, so the relationships were already there. The trust was already built. It wasn't like jumping into a new team as a manager where you have to establish everything from scratch. That made the transition feel a lot less jarring than I think it can be for others.
 
-That said, I don't want to be a stiff, corporate manager. I'm naturally informal, empathetic, and I want people to feel like they can be themselves around me. That hasn't changed — if anything, I think it matters more now. The goal isn't to become guarded, it's to be intentional. You can still certainly be approachable whilst being thoughtful about the weight your words carry. Getting that balance right is an ongoing thing, but I'd rather err on the side of being human than hide behind a job title.
+That's not to say nothing changed — it did. But it was more of a gradual shift than a sudden wall going up. The people I'd been working alongside were the same people, and we'd already figured out how to work together. I still have a good moan with the team, I still want people to feel like they can be themselves around me. If anything, coming from within the team meant I could focus more on the new responsibilities without worrying as much about whether people trusted me or not. That groundwork was already done.
 
 ## The Coding Question
 
