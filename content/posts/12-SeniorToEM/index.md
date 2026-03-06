@@ -2,7 +2,7 @@
 layout: page
 permalink: ""
 title: "Less Code, More Context"
-date: 2026-03-06
+date: 2026-04-06
 thumbnail: "images/image.png"
 showAuthor: true
 showDate: true
