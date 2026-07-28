@@ -6,3 +6,9 @@
 .place-self-center > a {
     font-size: 10px
 }
+
+.image-small figure {
+    max-width: 30rem;
+    margin-left: auto;
+    margin-right: auto;
+}
