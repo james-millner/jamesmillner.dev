@@ -90,9 +90,7 @@ not a sign that you're doing it wrong. If I'm being honest even to date, that ha
 learn to handle it better. 
 
 You gather context, you talk to people, you make a call, and then you live with it. Sometimes you get it right, and 
-sometimes you are wrong, but that's part of the challenge. 
-
-The discomfort doesn't fully go away. You just get better at navigating it.
+sometimes you are wrong, but that's part of the challenge.
 
 ## It Can Get Lonely
 
@@ -117,7 +115,7 @@ But it varies massively week to week. Some weeks I'm reviewing PRs, poking at a 
 Other weeks I don't open an IDE at all. 
 
 I should also mention the obvious, this is also aided by the advances in LLM capabilities. Frontier models currently are able 
-to spin context up and keep me in the loop far better than they used to be. They can enable me to fix the small things, the copy changes, the colour of a button. 
+to spin context up and keep me in the loop far better than they used to. They can enable me to fix the small things, the copy changes, the colour of a button. 
 I don't take on large tasks, but I think it's important I try and stay close to the challenges the team face in this role.
 
 I won't pretend I've nailed this balance. I'm still figuring it out, and I suspect most engineering managers are, 
@@ -146,7 +144,7 @@ it finally clicking into place.
 So, if you're still reading this, thank you! I'm just over a year into this, so take all of this with a big pinch of salt.
 But here's what I'd want to hear if I were back in that Senior role:
 
-- **It's not a promotion. It's a career change.** The skills overlap, but the job is fundamentally different. Learn to treat it that way.
+- **It's not a promotion. It's a career change.** The skills overlap, but the job is fundamentally different.
 - **You'll miss coding some days.** And that's fine. It doesn't mean you made the wrong choice.
 - **The ambiguity doesn't go away.** You just get more comfortable with it. If you need clear right answers to feel productive, this role will challenge you.
 - **Your relationships are your superpower.** Everything I've achieved in this role traces back to the relationships I built early on. My advice is to invest there, because people matter.
