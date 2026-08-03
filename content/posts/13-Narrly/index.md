@@ -2,8 +2,7 @@
 layout: page
 permalink: ""
 title: "Narrly There 🏄"
-date: 2026-07-31
-draft: true
+date: 2026-08-02
 thumbnail: "images/narrly-thumb.png"
 showAuthor: true
 showDate: true
@@ -13,11 +12,16 @@ summary: "Introducing Narrly, a side project that came out of a good friend desc
 showComments: true
 showTableOfContents: true
 ---
+<div class="image-small">
 
-![Pixel art of a surfer riding a wave, the Narrly mascot](images/narrly-thumb.png)
+![Pixel art of a surfer riding a wave, the Narrly mascot](images/surfer-animated.gif)
 
-I've always been interested in seeking side projects that are interesting, and solve real world problems. Although like many engineers
-there's many a side project on the shelf at any time. However this article is a little different, and introduces a project I'm proud of. 
+</div>
+
+I've always been interested in seeking side projects that are interesting, and that solve real world problems. 
+
+Although like many engineers there's many a side project on the shelf at any time. However, this article is a little different, and introduces a 
+project I've been working on recently, and have become quite proud of. 
 
 Oh, and one that works well!
 
@@ -26,8 +30,8 @@ Oh, and one that works well!
 This all started with a friend mine Ross Martin. Ross and I go back to the University of Huddersfield, and he's the same good friend I built 
 [DartsNow](/projects/1-dartsnow/) with through the pandemic. So we've got form for this sort of thing and work well together.
 
-Ross is a freelance editor and colourist, with a wide array of experience across TV & Film space. A while back he 
-was telling me about a chunk of his week that he described, roughly, as an hour of his life he'd like back. Every time. On every project.
+Ross is a freelance editor and colourist, with a wide array of experience across the TV & Film space. A while back he 
+was telling me about a chunk of his work that he was certain could be automated. He repeated this work on every project, every time.
 
 Ross walked me through it properly, mostly because I was being nosey. But I'd also been whittering on to Ross about having a crack at building
 something new. With some of the new AI capabilities I was confident we could give something a punt, and it turns out the problem itself is
@@ -57,6 +61,25 @@ You drop in your Guide and your Master, and it works out which takes in the Mast
 lines in your Guide. You get back a multi-track WAV with your Guide on the first channel and the takes stacked above it,
 each one sat at the right point on the timeline. Import it like any other file, then mute, solo and cut as normal.
 
+<div class="image-small">
+
+![Pixel art of a surfer riding a wave, the Narrly mascot](images/narrly-homepage.png "Narrly Landing page")
+
+</div>
+
+<div class="image-small">
+
+![Pixel art of a surfer riding a wave, the Narrly mascot](images/narrly-analysis.png "Narrly Analysis")
+
+</div>
+
+<div class="image-small">
+
+![Pixel art of a surfer riding a wave, the Narrly mascot](images/narrly-results.png "Narrly Results")
+
+</div>
+
+
 Alternatively you can export a single-track, which is Narrlys combination of the best matched
 takes. Interested to see how much this option gets used, but it's there if required.
 
@@ -70,13 +93,13 @@ it all.
 ## Shipping It
 
 It would be hard to not include that using LLM's has enabled me to work faster, albeit in areas. It's not all been smooth sailing though, it's certainly 
-created a mess that's hard to be untangled as well. I wanted this to be built in technologies that I could still 
-step into, still be able to wrestle with when I eventually hit the usage limits. 
+created its fair share of mess, but I've taken a spec driven development approach to it so that I can help steer each small step. 
+I also wanted this to be built in technologies that I could still step into, still be able to wrestle with when I eventually hit the usage limits. 
 
-It terms of making it look professional, it's all tied up with: a domain. a terms page. A privacy policy that I actually 
-had to sit, review and think about, because people are uploading work that isn't theirs to give away. Deciding what happens to those files
-(they're processed on our own kit in the EU, they never go near a third-party AI platform, and they're binned when you close the tab).
-Writing an FAQ in plain English rather than the version I'd write for another engineer, after all it isn't a purely technical write up.
+There was lots to consider; Deciding what happens to those files (they're processed on our own kit in the EU, they never
+go near a third-party AI platform, and they're binned when you close the tab). Writing an FAQ in plain English rather than 
+the version I'd write for another engineer, after all it isn't a purely technical write up. Also how on earth to a make the interface simple enough to just do the task
+while being informative enough to give you confidence it succeeded.
 
 There's no sign-up, no login, and we don't ask for your name or your email. It's free while it's in early access,
 mostly because it's early and early feedback is valuable right now.
@@ -96,4 +119,4 @@ It's meant to save you the repetitive part of the job. That's the whole pitch in
 
 It's live at [narrly.tech](https://narrly.tech). Drop two files in and see what comes back.
 
-If you edit video and it's rubbish for your workflow, I genuinely want to hear about it. You can reach me at [hello@jamesmillner.dev](mailto:hello@jamesmillner.dev).
+If you edit video, and it's rubbish for your workflow, I genuinely want to hear about it. You can reach me at [hello@jamesmillner.dev](mailto:hello@jamesmillner.dev).

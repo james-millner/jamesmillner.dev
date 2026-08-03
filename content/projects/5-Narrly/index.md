@@ -10,8 +10,8 @@ showReadingTime: true
 
 2026 -> Present
 
-[Narrly](https://narrly.tech) is audio alignment for video editors, built with my good friend Ross Martin. It takes one of
-the dullest jobs in an edit, matching a Master voiceover recording against the Guide track already sat on the timeline,
+[Narrly](https://narrly.tech) is audio alignment for video editors, built with my good friend Ross Martin. It takes one of the most 
+repetitive jobs in an edit, matching a Master voiceover recording against the Guide track already sat on the timeline,
 and does it for you.
 
 Editors normally do this by hand: scrub through the Master, find the take that matches the line on the timeline, drag it
