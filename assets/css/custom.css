@@ -3,6 +3,15 @@
     padding-right: 5%;
 }
 
+/* .max-w-prose above lets the article column fill the flex row, so the sidebar
+   needs an explicit basis or it collapses to the width of its longest word. */
+@media (min-width: 1024px) {
+    .toc-column {
+        flex: 0 0 20rem;
+        max-width: 20rem;
+    }
+}
+
 .place-self-center > a {
     font-size: 10px
 }
