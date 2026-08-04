@@ -37,10 +37,9 @@ top of this post a big theme for 2024.
 She has and continues to capture my undivided attention. She's walking now more than ever, and I'm quite excited about the upcoming adventures we can go on together 
 and in the future.
 
-## Proposal (Late Edit!)
+## Proposal 
 
-Crikey after looking back on photos from the year, I'd missed a big one.
-I finally plucked up the courage to ask my partner of 10 years to marry me.
+A big one. I finally plucked up the courage to ask my partner of 10 years to marry me.
 Thankfully, she said yes!  
 
 It's not the most traditional route, granted, but I've long thought it's been the right thing to do.
